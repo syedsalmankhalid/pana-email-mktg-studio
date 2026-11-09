@@ -1,0 +1,19 @@
+# Machine-local Claude Code settings (may hold personal permissions)
+.claude/settings.local.json
+
+# Secrets: API keys such as RESEND_API_KEY must never be committed
+.env
+.env.*
+!.env.example
+
+# OS and editor files
+Thumbs.db
+Desktop.ini
+.DS_Store
+.idea/
+.vscode/
+
+# Dependencies and build output (added when the studio is rebuilt)
+node_modules/
+dist/
+build/
