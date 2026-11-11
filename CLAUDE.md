@@ -15,3 +15,7 @@ This studio is for planning and writing email campaigns for a small business. Th
 1. Write in plain English. Short sentences, no jargon, no filler.
 2. Never send email to real people. Drafts and plans only. If sending is ever set up, it may go only to `@resend.dev` test addresses or the owner's own address.
 3. Ask before deleting anything. This covers files, folders and git history. Wait for a clear yes.
+
+## Brand voice
+
+@brand/voice.md
