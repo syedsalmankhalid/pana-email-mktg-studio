@@ -20,4 +20,9 @@ Each email file must:
    You're getting this because you joined the Kettlebird Tea waitlist.
    Kettlebird Tea, {{company_address}} · Unsubscribe: {{unsubscribe_url}}
 
+   End the first footer line with two spaces, so the two lines stay separate when the email is rendered.
+
+6. **Name the offer the same way every time.** Call it "your 20% waitlist offer". State its terms (end date, what it covers) only as the owner has confirmed them.
+7. **Mark unconfirmed facts.** If a fact only the owner can confirm is missing, such as a shipping estimate, write `[OWNER TO CONFIRM: ...]` in its place. Never guess. An email with any of these left in it is not ready to send.
+
 Keep to the brand voice in `brand/voice.md`.

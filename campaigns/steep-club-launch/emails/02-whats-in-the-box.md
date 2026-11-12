@@ -7,9 +7,9 @@ Wondering what actually arrives? Here's a peek.
 
 Each box holds fresh, hand-picked leaves, blended in small batches. Not dusty tea bags from the supermarket shelf.
 
-Every box also comes with a simple brewing guide. It walks you through each cup, one easy step at a time. Warm your cup. Add your leaves. Pour. Steep. Sip.
+Every box also comes with simple brewing guides. They walk you through each cup, one easy step at a time. Warm your cup. Add your leaves. Pour. Steep. Sip.
 
-That's it. If you've never brewed loose-leaf tea, you'll be fine. There's no pressure and no wrong way to start.
+That's it. The hardest part is waiting for it to steep. If you've never brewed loose-leaf tea, you'll be fine. There's no pressure and no wrong way to start.
 
 Your 20% waitlist offer is still waiting for you.
 

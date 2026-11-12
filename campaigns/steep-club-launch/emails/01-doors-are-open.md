@@ -1,15 +1,15 @@
 Subject: The Steep Club doors are open 🍵
-Preview: Join as a waitlist member and take 20% off. Fresh, small-batch tea, every month.
+Preview: You're on the waitlist, so you get 20% off. Fresh, small-batch tea, every month.
 
 Hi {{first_name}},
 
 You joined our waitlist, and today the wait is over. The Steep Club is open.
 
-It's our monthly tea box. Each month, fresh, small-batch loose-leaf tea arrives at your door. Every box comes with simple brewing guides, so you don't need to know a thing about tea.
+It's our monthly tea box. Fresh, small-batch loose-leaf tea arrives at your door each month. Every box comes with simple brewing guides, so you don't need to know a thing about tea.
 
 Think of it as your daily pause. A warm cup to unwind with, and something new to look forward to.
 
-As a waitlist member, you get 20% off. It's our thank-you for waiting with us.
+As a waitlist member, your 20% waitlist offer is ready. It's our thank-you for waiting with us.
 
 [Join The Steep Club](https://kettlebird.example/steep-club)
 
