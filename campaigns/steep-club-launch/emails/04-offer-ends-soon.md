@@ -3,7 +3,7 @@ Preview: A quick note before your waitlist offer closes on Sunday 3 January 2027
 
 Hi {{first_name}},
 
-Just a quiet reminder. Your 20% waitlist offer ends on Sunday 3 January 2027.
+Just a quiet reminder. Your 20% waitlist offer ends on Sunday 3 January 2027. Until then, you get 20% off your first three boxes.
 
 If The Steep Club sounds like your kind of ritual, now is a good time to join. You'll get fresh, small-batch tea each month, with simple brewing guides in every box.
 

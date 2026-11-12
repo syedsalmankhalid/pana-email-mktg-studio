@@ -9,7 +9,7 @@ It's our monthly tea box. Fresh, small-batch loose-leaf tea arrives at your door
 
 Think of it as your daily pause. A warm cup to unwind with, and something new to look forward to.
 
-As a waitlist member, your 20% waitlist offer is ready. It's our thank-you for waiting with us.
+As a waitlist member, your 20% waitlist offer is ready. You get 20% off your first three boxes. It's our thank-you for waiting with us.
 
 [Join The Steep Club](https://kettlebird.example/steep-club)
 

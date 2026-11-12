@@ -11,7 +11,7 @@ Every box also comes with simple brewing guides. They walk you through each cup,
 
 That's it. The hardest part is waiting for it to steep. If you've never brewed loose-leaf tea, you'll be fine. There's no pressure and no wrong way to start.
 
-Your 20% waitlist offer is still waiting for you.
+Your 20% waitlist offer is still waiting for you: 20% off your first three boxes.
 
 [See what's in the box](https://kettlebird.example/steep-club)
 
