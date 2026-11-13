@@ -1,4 +1,8 @@
 {
+  "enabledPlugins": {
+    "marketing@knowledge-work-plugins": true,
+    "mattpocock-skills@claude-plugins-official": false
+  },
   "extraKnownMarketplaces": {
     "knowledge-work-plugins": {
       "source": {
@@ -7,7 +11,17 @@
       }
     }
   },
-  "enabledPlugins": {
-    "marketing@knowledge-work-plugins": true
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "mcp__resend__.*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"$CLAUDE_PROJECT_DIR/.claude/hooks/send-guard.mjs\""
+          }
+        ]
+      }
+    ]
   }
 }
