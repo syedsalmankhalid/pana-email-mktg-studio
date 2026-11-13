@@ -13,6 +13,12 @@ const ALWAYS_BLOCK = new Set([
   "send-new-inbox-email",
 ]);
 
+// These answer or pass on real inbox mail, so they can reach real people.
+const INBOX_REPLIES = new Set([
+  "reply-to-inbox-thread-email",
+  "forward-inbox-thread-email",
+]);
+
 // These are checked address by address.
 const CHECKED_SENDS = new Set(["send-email", "send-batch-emails"]);
 
@@ -58,6 +64,13 @@ if (ALWAYS_BLOCK.has(shortName)) {
   block(
     `${shortName} is always blocked because it can reach whole lists of people. ` +
       "Use send-email to a @resend.dev test address or the owner's own address instead."
+  );
+}
+
+if (INBOX_REPLIES.has(shortName)) {
+  block(
+    `${shortName} is always blocked because it replies to or forwards real mail, ` +
+      "which can reach real people. Save a draft instead."
   );
 }
 
