@@ -1,0 +1,1840 @@
+From: <Saved by Claude>
+Snapshot-Content-Location: https://claude.ai/sms-studio-lab-fde-102
+Subject: SMS Studio Lab FDE-102
+Date: Thu, 12 Nov 2026 16:40:00 +0500
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_SMSStudioLab_FDE102"
+
+
+------=_NextPart_SMSStudioLab_FDE102
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://claude.ai/sms-studio-lab-fde-102
+
+<!DOCTYPE html>
+<html lang=3D"en">
+<head>
+<meta charset=3D"utf-8">
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1">
+<title>SMS Studio Lab FDE-102</title>
+<link rel=3D"preconnect" href=3D"https://fonts.googleapis.com">
+<link rel=3D"preconnect" href=3D"https://fonts.gstatic.com" crossorigin>
+<link href=3D"https://fonts.googleapis.com/css2?family=3DArchivo:wght@600;8=
+00&family=3DIBM+Plex+Sans:wght@400;500;600&family=3DIBM+Plex+Mono:wght@400;=
+500;600&display=3Dswap" rel=3D"stylesheet">
+<style>
+:root {
+  /* Layout: full-width hero with two cards, then a sticky left sidebar (qu=
+ick jump + progress) beside the step cards. Single dark navy theme, airmail=
+ stripe on top, like the Email Studio original. */
+  --bg: #0e1424;
+  --card: #161f35;
+  --card-2: #1b2640;
+  --ink: #e7ecf6;
+  --muted: #98a3ba;
+  --line: #27324c;
+  --red: #ef5a5f;
+  --blue: #7aa2ff;
+  --green: #5dcb8c;
+  --green-bg: #15281f;
+  --blue-bg: #18233f;
+  --amber-bg: #2b2414;
+  --amber: #f2b45a;
+  --code-bg: #0b111e;
+  --font-display: "Archivo", "Segoe UI", system-ui, sans-serif;
+  --font-body: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", Consolas, "Courier New", monospace;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 16px; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+body { margin: 0; background: var(--bg); color: var(--ink); font-family: va=
+r(--font-body); font-size: 15.5px; line-height: 1.6; }
+.stripe { height: 8px; background: repeating-linear-gradient(135deg, var(--=
+red) 0 14px, #f4f1ea 14px 22px, var(--blue) 22px 36px, #f4f1ea 36px 44px); }
+.wrap { max-width: 1240px; margin: 0 auto; padding: 0 24px 80px; }
+h1, h2, h3, h4 { font-family: var(--font-display); line-height: 1.2; text-w=
+rap: balance; margin: 0; }
+p { margin: 0 0 10px; }
+a { color: var(--blue); }
+code { font-family: var(--font-mono); font-size: .88em; background: #222d48=
+; color: #cfd9ef; padding: 1px 6px; border-radius: 4px; overflow-wrap: anyw=
+here; }
+strong { color: #fff; }
+
+/* hero */
+.hero { padding: 36px 0 8px; }
+.eyebrow { font-family: var(--font-mono); font-size: 12px; letter-spacing: =
+.14em; text-transform: uppercase; color: var(--red); }
+h1 { font-size: 56px; font-weight: 800; margin: 10px 0 14px; letter-spacing=
+: -.01em; }
+.intro { font-size: 17px; color: #c9d2e4; max-width: 66ch; }
+.facts { list-style: none; padding: 0; margin: 14px 0 26px; display: flex; =
+flex-wrap: wrap; gap: 8px; }
+.facts li { font-family: var(--font-mono); font-size: 12px; background: var=
+(--card); border: 1px solid var(--line); border-radius: 6px; padding: 4px 1=
+0px; color: #c9d2e4; }
+.hero-grid { display: grid; grid-template-columns: 1.15fr 1fr; gap: 18px; a=
+lign-items: start; }
+.hcard { background: var(--card); border: 1px solid var(--line); border-rad=
+ius: 14px; padding: 22px 24px; min-width: 0; }
+.hcard h2 { font-size: 26px; font-weight: 800; margin-bottom: 12px; }
+.hcard.map { margin-top: 18px; }
+.hcard ol { padding-left: 20px; margin: 0 0 10px; }
+.hcard ol li { margin: 5px 0; }
+.small { font-size: 14px; color: var(--muted); }
+.hkick { font-family: var(--font-mono); font-size: 11px; letter-spacing: .1=
+4em; text-transform: uppercase; color: var(--muted); margin: 14px 0 8px; }
+.how { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+.how > div { background: var(--card-2); border: 1px solid var(--line); bord=
+er-radius: 8px; padding: 10px; font-size: 13.5px; display: flex; flex-direc=
+tion: column; gap: 4px; }
+.how .hn { font-family: var(--font-mono); font-size: 11px; color: var(--blu=
+e); text-transform: uppercase; letter-spacing: .06em; }
+.how span { color: var(--muted); }
+.tree { font-family: var(--font-mono); font-size: 12.5px; line-height: 1.55=
+; white-space: pre; overflow-x: auto; background: var(--code-bg); border: 1=
+px solid var(--line); border-radius: 8px; padding: 12px 14px; margin-bottom=
+: 12px; color: #cfd9ef; }
+.amber { background: var(--amber-bg); border: 1px solid #4a3c1c; border-rad=
+ius: 8px; padding: 10px 14px; font-size: 14px; margin-top: 10px; }
+
+/* layout with sidebar */
+.layout { display: grid; grid-template-columns: 250px minmax(0, 1fr); gap: =
+32px; margin-top: 34px; align-items: start; }
+.side { position: sticky; top: 16px; max-height: calc(100vh - 32px); overfl=
+ow-y: auto; scrollbar-width: thin; }
+.side-inner { padding: 4px 4px 20px 0; }
+.side-progress { margin-bottom: 14px; }
+.meter { height: 6px; background: var(--line); border-radius: 99px; overflo=
+w: hidden; }
+.meter span { display: block; height: 100%; width: 0; background: var(--gre=
+en); transition: width .3s; }
+.ptext { font-family: var(--font-mono); font-size: 12px; color: var(--muted=
+); margin-top: 6px; }
+.side-part { font-family: var(--font-mono); font-size: 11px; letter-spacing=
+: .12em; text-transform: uppercase; color: var(--red); margin: 16px 0 4px; }
+.side-list { list-style: none; margin: 0; padding: 0; }
+.side-list a { display: grid; grid-template-columns: 22px 1fr 14px; align-i=
+tems: center; gap: 6px; padding: 4px 8px; border-radius: 6px; color: #d3dbe=
+a; text-decoration: none; font-size: 14px; line-height: 1.35; }
+.side-list a:hover { background: var(--card); }
+.side-list .n { font-family: var(--font-mono); font-size: 12px; color: var(=
+--muted); font-variant-numeric: tabular-nums; }
+.side-list a.is-current { background: var(--card-2); color: #fff; box-shado=
+w: inset 2px 0 0 var(--red); }
+.side-list a.is-done .t { color: var(--muted); text-decoration: line-throug=
+h; text-decoration-color: #4a5672; }
+.side-list a.is-done .tick { width: 8px; height: 8px; border-radius: 50%; b=
+ackground: var(--green); justify-self: center; }
+.side-links { list-style: none; padding: 0; margin: 18px 0 14px; display: f=
+lex; flex-direction: column; gap: 4px; font-size: 14px; }
+.side-links a { text-decoration: none; padding: 2px 8px; display: block; }
+.side-links a:hover { text-decoration: underline; }
+.btn { font: 600 13px var(--font-body); border: 1px solid var(--blue); colo=
+r: var(--blue); background: transparent; padding: 6px 12px; border-radius: =
+6px; cursor: pointer; margin-left: 8px; }
+.btn:hover { background: var(--blue-bg); }
+.btn[hidden] { display: none; }
+a:focus-visible, .btn:focus-visible, input:focus-visible, .copy:focus-visib=
+le { outline: 2px solid var(--blue); outline-offset: 2px; }
+
+/* parts */
+main { min-width: 0; }
+.part { margin: 8px 0 18px; }
+.part:not(:first-child) { margin-top: 44px; }
+.part-kick { font-family: var(--font-mono); font-size: 12px; letter-spacing=
+: .12em; text-transform: uppercase; color: var(--blue); }
+.part h2 { font-size: 30px; font-weight: 800; margin: 4px 0 6px; }
+.part-sub { color: var(--muted); max-width: 70ch; }
+#exam-wrap { display: none; }
+.plain-h2 { font-size: 26px; font-weight: 800; margin: 48px 0 12px; }
+
+/* step cards */
+section.step { background: var(--card); border: 1px solid var(--line); bord=
+er-radius: 14px; padding: 24px 26px; margin: 18px 0 26px; }
+section.step.done { border-color: #2c5a41; }
+.step-head { display: grid; grid-template-columns: 56px 1fr auto; gap: 16px=
+; align-items: start; margin-bottom: 12px; }
+.num { width: 56px; height: 56px; border: 2px dashed var(--red); border-rad=
+ius: 6px; display: grid; place-items: center; font-family: var(--font-displ=
+ay); font-weight: 800; font-size: 24px; color: var(--red); }
+section.step.done .num { border-color: var(--green); color: var(--green); }
+.cap { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; font-=
+size: 12.5px; color: var(--muted); margin-bottom: 4px; }
+.cap-text + .cap-text::before { content: "=C2=B7 "; }
+.xchip { font-family: var(--font-mono); font-size: 11px; color: var(--blue)=
+; border: 1px solid #36508a; background: var(--blue-bg); padding: 0 6px; bo=
+rder-radius: 4px; }
+.meta h3 { font-size: 23px; font-weight: 800; }
+.sub { color: var(--muted); margin: 4px 0 0; }
+.sub em { font-style: normal; }
+.done-box { display: flex; align-items: center; gap: 8px; font-weight: 600;=
+ font-size: 13.5px; border: 1px solid var(--line); border-radius: 8px; padd=
+ing: 6px 12px; cursor: pointer; user-select: none; background: var(--card-2=
+); white-space: nowrap; }
+.done-box input { width: 16px; height: 16px; accent-color: var(--green); cu=
+rsor: pointer; margin: 0; }
+.plain { border-left: 3px solid var(--red); padding: 2px 0 2px 14px; margin=
+: 12px 0 16px; color: #d6deec; }
+.plain p { margin: 0; }
+h4 { font-size: 15px; font-weight: 600; margin: 18px 0 6px; }
+section.step > p, section.step li { max-width: 74ch; }
+ol.steps-list, ul.plainlist, ul.win-list { padding-left: 20px; margin: 6px =
+0 12px; }
+ol.steps-list li, ul.plainlist li, ul.win-list li { margin: 5px 0; }
+
+/* code panels */
+.code { background: var(--code-bg); border: 1px solid var(--line); border-r=
+adius: 10px; margin: 12px 0 16px; overflow: hidden; }
+.code-head { display: flex; align-items: center; gap: 10px; padding: 8px 10=
+px 8px 12px; border-bottom: 1px solid var(--line); background: #111a2c; }
+.chip { font-family: var(--font-mono); font-size: 11px; font-weight: 600; l=
+etter-spacing: .06em; padding: 2px 8px; border-radius: 4px; }
+.chip.build { background: #23345e; color: #9fbcff; }
+.chip.check { background: #183a28; color: #79dca0; }
+.chip.run { background: #3a2b17; color: #f2b45a; }
+.code-desc { font-size: 13px; color: var(--muted); flex: 1; min-width: 0; }
+.copy { font: 600 12px var(--font-body); background: #1d2944; color: #e3e9f=
+5; border: 1px solid #33426a; border-radius: 6px; padding: 4px 12px; cursor=
+: pointer; }
+.copy:hover { background: #26355a; }
+.code pre { margin: 0; padding: 14px 16px; font-family: var(--font-mono); f=
+ont-size: 13px; line-height: 1.6; color: #dbe3f3; white-space: pre-wrap; ov=
+erflow-wrap: anywhere; }
+
+/* outcomes */
+.outcomes { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margi=
+n: 16px 0 6px; }
+.outcomes.single { grid-template-columns: 1fr; }
+.ocard { border-radius: 10px; padding: 14px 16px; font-size: 14.5px; min-wi=
+dth: 0; }
+.ocard.win { background: var(--green-bg); border: 1px solid #275139; }
+.ocard.exam { background: var(--blue-bg); border: 1px solid #2f4579; }
+.okick { font-family: var(--font-mono); font-size: 11px; letter-spacing: .1=
+2em; text-transform: uppercase; margin-bottom: 8px; }
+.ocard.win .okick { color: var(--green); }
+.ocard.exam .okick { color: var(--blue); }
+.ocard ul { padding-left: 18px; margin: 0; }
+.ocard p:last-child { margin-bottom: 0; }
+
+/* Part A + notes + tables */
+.part-a { border: 1px dashed #3b4a70; border-radius: 10px; padding: 16px 18=
+px; margin: 14px 0; background: #121a2d; }
+.output { background: var(--code-bg); border: 1px solid var(--line); border=
+-radius: 8px; padding: 10px 14px; white-space: pre; overflow-x: auto; font-=
+family: var(--font-mono); font-size: 12.5px; margin: 6px 0 12px; color: #9f=
+e0b6; }
+.note { background: var(--amber-bg); border: 1px solid #4a3c1c; border-radi=
+us: 8px; padding: 10px 14px; margin: 12px 0; font-size: 14px; }
+.note p { margin: 0 0 6px; } .note p:last-child { margin: 0; }
+.table-wrap { overflow-x: auto; margin: 10px 0 14px; }
+table { border-collapse: collapse; width: 100%; font-size: 14px; }
+th, td { text-align: left; padding: 8px 12px; border: 1px solid var(--line)=
+; vertical-align: top; }
+th { background: var(--card-2); font-weight: 600; }
+main > .table-wrap table, main > ul.plainlist { background: var(--card); }
+footer { margin-top: 40px; color: var(--muted); font-size: 13.5px; }
+
+/* narrow screens: sidebar becomes a top block */
+@media (max-width: 980px) {
+  .hero-grid { grid-template-columns: 1fr; }
+  .layout { grid-template-columns: 1fr; gap: 10px; }
+  .side { position: static; max-height: none; background: var(--card); bord=
+er: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; }
+  .side-list { display: grid; grid-template-columns: repeat(auto-fill, minm=
+ax(200px, 1fr)); }
+}
+@media (max-width: 640px) {
+  .wrap { padding: 0 16px 60px; }
+  h1 { font-size: 38px; }
+  .how { grid-template-columns: 1fr 1fr; }
+  .outcomes { grid-template-columns: 1fr; }
+  .step-head { grid-template-columns: 44px 1fr; }
+  .num { width: 44px; height: 44px; font-size: 19px; }
+  .done-box { grid-column: 1 / -1; justify-self: start; }
+  section.step { padding: 18px 16px; }
+}
+
+</style>
+</head>
+<body>
+<div class=3D"stripe" aria-hidden=3D"true"></div>
+<div class=3D"wrap">
+<header class=3D"hero">
+  <div class=3D"eyebrow">A hands-on Claude Code course =C2=B7 no coding nee=
+ded =C2=B7 FDE-102</div>
+  <h1>SMS Studio Lab</h1>
+  <p class=3D"intro">You will set up an SMS marketing studio and run it wit=
+h Claude Code. Claude plans a launch campaign, writes the text messages, pe=
+rsonalizes them for each group of subscribers, and sends them, safely, to a=
+ practice Twilio server on your own laptop. Along the way you use every Cla=
+ude Code feature on the CCAR-F exam.</p>
+  <ul class=3D"facts"><li>15 steps</li><li>about 30=E2=80=9360 min each</li=
+><li>no real texts are sent</li><li>no Twilio account needed</li><li>writte=
+n for Windows 11</li></ul>
+  <div class=3D"hero-grid">
+    <div class=3D"hcard" id=3D"before">
+      <h2>Before you start</h2>
+      <ol class=3D"steps-list">
+  <li><strong>Install Node.js 22 or newer</strong> from nodejs.org (the Win=
+dows "LTS" installer). Open a new PowerShell window and check with <code>no=
+de --version</code>.</li>
+  <li><strong>Install Git for Windows</strong> from git-scm.com. Check with=
+ <code>git --version</code>. Claude Code uses its Git Bash.</li>
+  <li><strong>Install Claude Code:</strong> <code>npm install -g @anthropic=
+-ai/claude-code</code>, then sign in when you first run <code>claude</code>=
+.</li>
+  <li><strong>Make your studio folder and open Claude Code in it</strong> (=
+in PowerShell):</li>
+</ol><div class=3D"code"><div class=3D"code-head"><span class=3D"chip run">=
+RUN</span><span class=3D"code-desc">PowerShell</span></div><pre>mkdir my-sm=
+s-studio
+cd my-sms-studio
+git init
+claude</pre></div>
+      <p class=3D"small">Use Windows Terminal with PowerShell tabs. From St=
+ep 1 on you keep <strong>two windows</strong> open: one for Claude Code, on=
+e for the Twilio practice server.</p>
+      <div class=3D"hkick">How every step works</div>
+      <div class=3D"how">
+        <div><div class=3D"hn">1 =C2=B7 Build</div><strong>Paste the build =
+prompt</strong><span>In Claude Code, in your studio folder.</span></div>
+        <div><div class=3D"hn">2 =C2=B7 Fresh</div><strong>Start a new sess=
+ion</strong><span>Type <code>/exit</code>, then run <code>claude</code> aga=
+in.</span></div>
+        <div><div class=3D"hn">3 =C2=B7 Check</div><strong>Paste the check =
+prompt</strong><span>A fresh Claude tests your work. It didn't build it, so=
+ it's honest.</span></div>
+        <div><div class=3D"hn">4 =C2=B7 Done</div><strong>Answer its questi=
+ons</strong><span>Then tick Done on the step.</span></div>
+      </div>
+    </div>
+    <div class=3D"hcard">
+      <h2>Your studio at the end</h2>
+      <div class=3D"tree">my-sms-studio/
+=E2=94=9C=E2=94=80=E2=94=80 CLAUDE.md                  the studio's rules
+=E2=94=9C=E2=94=80=E2=94=80 brand/voice.md             how the brand sounds
+=E2=94=9C=E2=94=80=E2=94=80 subscribers/
+=E2=94=82   =E2=94=9C=E2=94=80=E2=94=80 subscribers.csv        24 practice =
+subscribers
+=E2=94=82   =E2=94=94=E2=94=80=E2=94=80 CLAUDE.md              rules for th=
+is folder only
+=E2=94=9C=E2=94=80=E2=94=80 campaigns/night-owl-launch/
+=E2=94=82   =E2=94=9C=E2=94=80=E2=94=80 plan.md                the campaign=
+ plan
+=E2=94=82   =E2=94=9C=E2=94=80=E2=94=80 messages/              4 launch tex=
+t messages
+=E2=94=82   =E2=94=94=E2=94=80=E2=94=80 groups/                a version pe=
+r subscriber group
+=E2=94=9C=E2=94=80=E2=94=80 mcp/sms-server.mjs         your small Twilio co=
+nnection
+=E2=94=9C=E2=94=80=E2=94=80 .claude/
+=E2=94=82   =E2=94=9C=E2=94=80=E2=94=80 rules/sms.md           rules for ev=
+ery message file
+=E2=94=82   =E2=94=9C=E2=94=80=E2=94=80 skills/personalize/
+=E2=94=82   =E2=94=94=E2=94=80=E2=94=80 hooks/send-guard.mjs
+=E2=94=9C=E2=94=80=E2=94=80 .mcp.json                  starts your SMS serv=
+er
+=E2=94=94=E2=94=80=E2=94=80 scripts/review.mjs         automatic review</di=
+v>
+      <div class=3D"amber"><strong>Claude will ask permission</strong> befo=
+re it writes inside <code>.claude/</code> or to <code>.mcp.json</code>. Tha=
+t's normal. Read what it wants to do, then approve.</div>
+      <div class=3D"amber"><strong>No brand of your own?</strong> Use the s=
+ample: Chirpnet Mobile, a made-up mobile network launching a cheap late-nig=
+ht data bundle called The Night Owl Bundle (midnight to 7 am). Its subscrib=
+ers fall into three groups: students, gamers and budget-callers. The prompt=
+s below use it.</div>
+    </div>
+  </div>
+  <div class=3D"hcard map" id=3D"map">
+    <h2>Course map</h2>
+    <div class=3D"table-wrap"><table>
+      <tr><th>Part</th><th>Steps</th><th>Theme</th></tr>
+      <tr><td><a href=3D"#part1">Part 1 =C2=B7 Plan and write</a></td><td>1=
+ to 8</td><td>Set up the practice server and the studio, give it a brand vo=
+ice, plan a campaign, write the messages. Nothing gets sent.</td></tr>
+      <tr><td><a href=3D"#part2">Part 2 =C2=B7 Send safely</a></td><td>9 to=
+ 11</td><td>Build a small Twilio connection in practice mode, add a send gu=
+ard, run a practice launch.</td></tr>
+      <tr><td><a href=3D"#part3">Part 3 =C2=B7 Work like a team</a></td><td=
+>12 to 14</td><td>Resume and fork sessions, automatic review, package a reu=
+sable studio kit.</td></tr>
+      <tr><td><a href=3D"#stretch">Stretch</a></td><td>15</td><td>Work with=
+ a large pile of customer feedback and keep Claude accurate when memory fil=
+ls up.</td></tr>
+    </table></div>
+  </div>
+</header>
+<div class=3D"layout">
+<aside class=3D"side" aria-label=3D"Jump to a step">
+  <div class=3D"side-inner">
+    <div class=3D"side-progress"><div class=3D"meter"><span id=3D"meter"></=
+span></div><div id=3D"progress-text" class=3D"ptext">0 of 15 done</div></di=
+v>
+    <div class=3D"side-part">Part 1 =C2=B7 Plan and write</div><ol class=3D=
+"side-list"><li><a href=3D"#step-1" data-nav=3D"1"><span class=3D"n">1</spa=
+n><span class=3D"t">Practice server &amp; look first</span><span class=3D"t=
+ick" aria-hidden=3D"true"></span></a></li><li><a href=3D"#step-2" data-nav=
+=3D"2"><span class=3D"n">2</span><span class=3D"t">Set up your studio</span=
+><span class=3D"tick" aria-hidden=3D"true"></span></a></li><li><a href=3D"#=
+step-3" data-nav=3D"3"><span class=3D"n">3</span><span class=3D"t">Your bra=
+nd voice</span><span class=3D"tick" aria-hidden=3D"true"></span></a></li><l=
+i><a href=3D"#step-4" data-nav=3D"4"><span class=3D"n">4</span><span class=
+=3D"t">Plan the campaign</span><span class=3D"tick" aria-hidden=3D"true"></=
+span></a></li><li><a href=3D"#step-5" data-nav=3D"5"><span class=3D"n">5</s=
+pan><span class=3D"t">Practice subscribers</span><span class=3D"tick" aria-=
+hidden=3D"true"></span></a></li><li><a href=3D"#step-6" data-nav=3D"6"><spa=
+n class=3D"n">6</span><span class=3D"t">Message rule &amp; messages</span><=
+span class=3D"tick" aria-hidden=3D"true"></span></a></li><li><a href=3D"#st=
+ep-7" data-nav=3D"7"><span class=3D"n">7</span><span class=3D"t">Fresh-eyes=
+ review</span><span class=3D"tick" aria-hidden=3D"true"></span></a></li><li=
+><a href=3D"#step-8" data-nav=3D"8"><span class=3D"n">8</span><span class=
+=3D"t">Your own skill</span><span class=3D"tick" aria-hidden=3D"true"></spa=
+n></a></li></ol>
+    <div class=3D"side-part">Part 2 =C2=B7 Send safely</div><ol class=3D"si=
+de-list"><li><a href=3D"#step-9" data-nav=3D"9"><span class=3D"n">9</span><=
+span class=3D"t">Connect Twilio</span><span class=3D"tick" aria-hidden=3D"t=
+rue"></span></a></li><li><a href=3D"#step-10" data-nav=3D"10"><span class=
+=3D"n">10</span><span class=3D"t">The safety guard</span><span class=3D"tic=
+k" aria-hidden=3D"true"></span></a></li><li><a href=3D"#step-11" data-nav=
+=3D"11"><span class=3D"n">11</span><span class=3D"t">Practice launch</span>=
+<span class=3D"tick" aria-hidden=3D"true"></span></a></li></ol>
+    <div class=3D"side-part">Part 3 =C2=B7 Work like a team</div><ol class=
+=3D"side-list"><li><a href=3D"#step-12" data-nav=3D"12"><span class=3D"n">1=
+2</span><span class=3D"t">Resume and fork</span><span class=3D"tick" aria-h=
+idden=3D"true"></span></a></li><li><a href=3D"#step-13" data-nav=3D"13"><sp=
+an class=3D"n">13</span><span class=3D"t">Automatic review</span><span clas=
+s=3D"tick" aria-hidden=3D"true"></span></a></li><li><a href=3D"#step-14" da=
+ta-nav=3D"14"><span class=3D"n">14</span><span class=3D"t">Package your stu=
+dio kit</span><span class=3D"tick" aria-hidden=3D"true"></span></a></li></o=
+l>
+    <div class=3D"side-part">Stretch</div><ol class=3D"side-list"><li><a hr=
+ef=3D"#step-15" data-nav=3D"15"><span class=3D"n">15</span><span class=3D"t=
+">Love and hate</span><span class=3D"tick" aria-hidden=3D"true"></span></a>=
+</li></ol>
+    <ul class=3D"side-links">
+      <li><a href=3D"#before">Before you start</a></li>
+      <li><a href=3D"#a-setup">Twilio setup (Windows 11)</a></li>
+      <li><a href=3D"#map">Course map</a></li>
+      <li><a href=3D"#exam">Exam map</a></li>
+      <li><a href=3D"#words">Words you'll see</a></li>
+    </ul>
+    <button class=3D"btn" id=3D"dl-btn" type=3D"button" hidden>Download .ht=
+ml</button>
+  </div>
+</aside>
+<main>
+<div class=3D"part" id=3D"part1"><div class=3D"part-kick">Part 1 =C2=B7 Ste=
+ps 1=E2=80=938</div><h2>Plan and write</h2><p class=3D"part-sub">Set up the=
+ practice server and the studio, give it a brand voice, plan a campaign and=
+ write the messages. Nothing gets sent in this part.</p></div>
+<section class=3D"step" id=3D"step-1" data-step=3D"1">
+  <div class=3D"step-head"><div class=3D"num">1</div><div class=3D"meta"><d=
+iv class=3D"cap"><span class=3D"cap-text">Skill: looking for trusted skills=
+ and servers</span><span class=3D"cap-text">Real-world habit</span><span cl=
+ass=3D"xchip">2.4</span></div><h3>Practice server, then look before you bui=
+ld</h3><p class=3D"sub">Set up the Twilio practice server on Windows 11, th=
+en search for skills and MCP servers other people made, and decide which on=
+es to trust.</p></div><label class=3D"done-box"><input type=3D"checkbox" id=
+=3D"done-1"> Done</label></div>
+  <div class=3D"plain"><p><strong>In plain words:</strong> the practice ser=
+ver is a pretend Twilio that lives on your own laptop. Messages go in, get =
+a real-looking receipt, and never reach a phone. A skill is like an app for=
+ Claude. Before you build one, look in the app store. Download counts can b=
+e faked, so also check who made it.</p></div>
+
+  <div class=3D"part-a" id=3D"a-setup">
+    <h4 style=3D"margin-top:0">Part A =C2=B7 Set up the Twilio practice ser=
+ver on Windows 11</h4>
+    <p>You do this once. It uses the same tool your Email Studio used for R=
+esend, <code>emulate</code>, version 0.12.3, which also emulates Twilio. No=
+thing needs a Twilio account.</p>
+
+    <p><strong>A1. Check your tools.</strong> Open PowerShell and run:</p>
+    <div class=3D"code"><div class=3D"code-head"><span class=3D"chip run">R=
+UN</span><span class=3D"code-desc">PowerShell</span></div><pre>node --versi=
+on
+npx --version</pre></div>
+    <p>Node must say v22 or higher. If <code>npx</code> says <em>"running s=
+cripts is disabled on this system"</em>, allow scripts for your own user, a=
+nswer <code>Y</code>, then open a new PowerShell window:</p>
+    <div class=3D"code"><div class=3D"code-head"><span class=3D"chip run">R=
+UN</span><span class=3D"code-desc">PowerShell</span></div><pre>Set-Executio=
+nPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned</pre></div>
+
+    <p><strong>A2. Start the practice server in a second window.</strong> O=
+pen a <strong>new</strong> PowerShell tab (this becomes your server window)=
+ and run:</p>
+    <div class=3D"code"><div class=3D"code-head"><span class=3D"chip run">R=
+UN</span><span class=3D"code-desc">PowerShell</span></div><pre>npx emulate@=
+0.12.3 start --service twilio</pre></div>
+    <p>The first time, npx asks <em>"Need to install the following packages=
+: emulate@0.12.3. Ok to proceed? (y)"</em>. Type <code>y</code>. Wait until=
+ you see:</p>
+    <div class=3D"output">emulate
+
+  twilio  http://localhost:4000
+    Source: twilio
+
+  Ready.</div>
+    <p>If Windows Defender Firewall asks about Node.js, choose <strong>Priv=
+ate networks</strong> only, or Cancel. The server only listens on your own =
+laptop, so it works either way. Leave this window open whenever you use the=
+ studio. <code>Ctrl+C</code> stops it.</p>
+
+    <p><strong>A3. Look at it in your browser.</strong> Open <code>http://1=
+27.0.0.1:4000</code>. You should see a page titled <strong>Twilio Inspector=
+</strong>. This is where your practice messages will appear.</p>
+
+    <p><strong>A4. Test it with real API calls.</strong> Go back to your <s=
+trong>first</strong> PowerShell window. Paste these three lines to save the=
+ practice login. They are the server's built-in practice values, not real s=
+ecrets:</p>
+    <div class=3D"code"><div class=3D"code-head"><span class=3D"chip run">R=
+UN</span><span class=3D"code-desc">PowerShell</span></div><pre>$sid  =3D "A=
+C00000000000000000000000000000000"
+$auth =3D "${sid}:twilio_test_auth_token"
+$api  =3D "http://127.0.0.1:4000/2010-04-01/Accounts/$sid/Messages.json"</p=
+re></div>
+    <p>Always type <code>curl.exe</code>, with <code>.exe</code>. In Window=
+s PowerShell, plain <code>curl</code> is a different command and gives conf=
+using errors.</p>
+
+    <p><em>Test 1: list messages.</em> It should be empty:</p>
+    <div class=3D"code"><div class=3D"code-head"><span class=3D"chip run">R=
+UN</span><span class=3D"code-desc">PowerShell</span></div><pre>curl.exe -s =
+-u $auth $api</pre></div>
+    <div class=3D"output">{"messages":[],"end":0, ... }</div>
+
+    <p><em>Test 2: send a practice text</em> to Twilio's test number <code>=
++15005550006</code>, from the server's built-in sender number <code>+155512=
+34567</code>:</p>
+    <div class=3D"code"><div class=3D"code-head"><span class=3D"chip run">R=
+UN</span><span class=3D"code-desc">PowerShell</span></div><pre>curl.exe -s =
+-u $auth -X POST $api --data-urlencode "To=3D+15005550006" --data-urlencode=
+ "From=3D+15551234567" --data-urlencode "Body=3DHello from my SMS studio"</=
+pre></div>
+    <p>You get back JSON with a message id starting <code>"sid":"SM</code>,=
+ plus <code>"status":"queued"</code> and <code>"num_segments":"1"</code>.</=
+p>
+
+    <p><em>Test 3: see it arrive.</em> Run Test 1 again. The message is now=
+ in the list. Refresh the Twilio Inspector page: it shows there too.</p>
+
+    <p><em>Test 4: a wrong password is refused.</em> This should print <cod=
+e>401</code>:</p>
+    <div class=3D"code"><div class=3D"code-head"><span class=3D"chip run">R=
+UN</span><span class=3D"code-desc">PowerShell</span></div><pre>curl.exe -s =
+-o NUL -w "%{http_code}" -u "${sid}:wrong" $api</pre></div>
+
+    <p><em>Test 5: long messages split.</em> Send a 170-character message. =
+It should report <code>"num_segments":"2"</code>, which means it would be c=
+harged as two texts. Remember this for Step 6.</p>
+    <div class=3D"code"><div class=3D"code-head"><span class=3D"chip run">R=
+UN</span><span class=3D"code-desc">PowerShell</span></div><pre>curl.exe -s =
+-u $auth -X POST $api --data-urlencode "To=3D+15005550006" --data-urlencode=
+ "From=3D+15551234567" --data-urlencode "Body=3D$('a' * 170)"</pre></div>
+
+    <p><strong>Good to know:</strong></p>
+    <ul class=3D"plainlist">
+      <li>Use <code>127.0.0.1</code>, not <code>localhost</code>, in comman=
+ds and settings. The server only answers on 127.0.0.1, and on Windows "loca=
+lhost" sometimes tries the IPv6 address first and fails to connect. Your br=
+owser copes with either.</li>
+      <li>Sent messages stay <code>queued</code>. A real phone network woul=
+d mark them delivered. In Step 9 your connection marks them delivered for y=
+ou.</li>
+      <li>Restarting the server wipes the message list. That's fine: every =
+practice run starts clean.</li>
+    </ul>
+
+    <p><strong>If something goes wrong:</strong></p>
+    <div class=3D"table-wrap"><table>
+      <tr><th>You see</th><th>Fix</th></tr>
+      <tr><td><code>npx</code> or <code>node</code> is not recognized</td><=
+td>Close and reopen PowerShell after installing Node. If it still fails, re=
+install Node with "Add to PATH" ticked.</td></tr>
+      <tr><td>running scripts is disabled</td><td>Run the <code>Set-Executi=
+onPolicy</code> line in A1, then open a new window.</td></tr>
+      <tr><td><code>EADDRINUSE</code> or port 4000 is in use</td><td>Start =
+on another port: <code>npx emulate@0.12.3 start --service twilio --port 410=
+0</code>. Use 4100 in every address, and in Step 9 set <code>TWILIO_BASE_UR=
+L</code> to <code>http://127.0.0.1:4100</code>.</td></tr>
+      <tr><td>curl: Failed to connect</td><td>The server window was closed =
+or stopped. Start it again (A2).</td></tr>
+      <tr><td>A parameter cannot be found that matches parameter name 'u'</=
+td><td>You typed <code>curl</code>. Type <code>curl.exe</code>.</td></tr>
+      <tr><td><code>"code":21606</code>, From number not owned</td><td>The =
+From number must be <code>+15551234567</code>.</td></tr>
+    </table></div>
+  </div>
+
+  <h4>Part B =C2=B7 Look before you build</h4>
+  <div class=3D"code"><div class=3D"code-head"><span class=3D"chip build">B=
+UILD</span><span class=3D"code-desc">Paste in Claude Code</span></div><pre>=
+I'm setting up an SMS marketing studio in this folder. Before I build anyth=
+ing myself, I want to find skills and MCP servers other people have already=
+ made.
+1. Confirm the Twilio practice server is running: use curl to list messages=
+ at http://127.0.0.1:4000/2010-04-01/Accounts/AC000000000000000000000000000=
+00000/Messages.json with the login AC00000000000000000000000000000000:twili=
+o_test_auth_token. Tell me how many messages are there.
+2. Search the skills directory at skills.sh by running these one at a time:
+npx skills find sms marketing
+npx skills find twilio
+npx skills find campaign plan
+npx skills find text message copy
+3. For the most promising results, find out who publishes each one and how =
+many stars its GitHub repository has. Look out for official publishers such=
+ as anthropics, twilio-labs and vercel-labs.
+4. Look up Twilio's official MCP server (@twilio-alpha/mcp, from twilio-lab=
+s). Find out whether it can be pointed at a local practice server at http:/=
+/127.0.0.1:4000 instead of the real Twilio.
+5. Write notes/skills-i-chose.md in plain English with four short sections:
+- Use these: the two sources you recommend for writing campaigns and sendin=
+g text messages, and why.
+- Avoid these: two results you would not trust, and why.
+- The MCP decision: should we use Twilio's official MCP server, or build a =
+small one of our own for practice mode? Why?
+- How I decided: the three things I should check before installing any skil=
+l or server.
+Don't install anything yet.</pre></div>
+
+  <div class=3D"code"><div class=3D"code-head"><span class=3D"chip check">C=
+HECK</span><span class=3D"code-desc">New session, then paste</span></div><p=
+re>Check my work in notes/skills-i-chose.md. Don't change any files. Test i=
+t, don't just read it:
+1. Is the Twilio practice server running? Use curl to send one message from=
+ +15551234567 to +15005550006 at http://127.0.0.1:4000/2010-04-01/Accounts/=
+AC00000000000000000000000000000000/Messages.json (login AC00000000000000000=
+000000000000000:twilio_test_auth_token), then list messages and confirm it =
+is there. Give me the message sid.
+2. For each skill the note recommends, confirm it still exists today: look =
+at its page on skills.sh or its folder in the GitHub repository. Tell me if=
+ any has been renamed, merged or removed.
+3. Run one of the searches again (for example npx skills find twilio) and c=
+onfirm the install numbers in the note are roughly right.
+4. Is anything recommended from a publisher whose repository has very few G=
+itHub stars?
+5. Does the MCP decision match what the official Twilio server's README act=
+ually says?
+Give me a short table: Check | OK or Problem | What you found.
+Then ask me two quick questions, one at a time, to see if I understand why =
+install counts alone aren't enough.</pre></div>
+  <div class=3D"outcomes"><div class=3D"ocard win"><div class=3D"okick">You=
+'ll know it worked when</div><ul class=3D"win-list">
+    <li>The practice server answers, and the check gets a message sid start=
+ing <code>SM</code>.</li>
+    <li>The note picks official or well-known sources, like Anthropic's mar=
+keting plugin and the vercel-labs <code>emulate</code> Twilio skill.</li>
+    <li>It warns you off a result with many installs but only a handful of =
+GitHub stars.</li>
+    <li>The MCP decision says Twilio's official server documents no setting=
+ for a custom address, so it can't easily reach the practice server. We bui=
+ld a small one of our own in Step 9. If your note says something else, ask =
+Claude to show where it found that.</li>
+  </ul></div><div class=3D"ocard exam"><div class=3D"okick">Exam note</div>=
+<p>For a standard need, use an existing community MCP server first, and bui=
+ld your own only for work that is special to your team. Here the special ne=
+ed is practice mode, so a small server of our own is the right call. That i=
+s exactly the judgement the exam tests.</p></div></div>
+</section>
+<section class=3D"step" id=3D"step-2" data-step=3D"2">
+  <div class=3D"step-head"><div class=3D"num">2</div><div class=3D"meta"><d=
+iv class=3D"cap"><span class=3D"cap-text">Skill areas: plugins, CLAUDE.md</=
+span><span class=3D"xchip">3.1</span></div><h3>Set up your studio</h3><p cl=
+ass=3D"sub">Install a plugin for this project only, and write the studio's =
+CLAUDE.md.</p></div><label class=3D"done-box"><input type=3D"checkbox" id=
+=3D"done-2"> Done</label></div>
+  <div class=3D"plain"><p><strong>In plain words:</strong> CLAUDE.md is the=
+ studio's notice board. Claude reads it every time it starts work here. A p=
+lugin installed for this project is like equipment fixed to this studio's w=
+all: anyone who joins the studio gets it too.</p></div>
+  <div class=3D"code"><div class=3D"code-head"><span class=3D"chip build">B=
+UILD</span><span class=3D"code-desc">Paste in Claude Code</span></div><pre>=
+Let's set up my SMS studio in this folder.
+1. Install Anthropic's official marketing plugin for this project only, by =
+running these two commands:
+claude plugin marketplace add anthropics/knowledge-work-plugins --scope pro=
+ject
+claude plugin install marketing@knowledge-work-plugins --scope project
+2. Create four folders: brand, subscribers, campaigns and notes.
+3. Write a CLAUDE.md for the studio in plain English. Include: what the stu=
+dio is for (planning and writing SMS campaigns for a small mobile network),=
+ a one-line description of each folder, and these rules: write in plain Eng=
+lish, never send a text message to real people, and ask me before deleting =
+anything.
+4. Create a .gitignore that ignores .claude/settings.local.json, node_modul=
+es and system files like Thumbs.db and .DS_Store.
+5. Commit everything with a clear message.
+Then tell me what I have to do so the plugin loads.</pre></div>
+  <p><strong>Then:</strong> Type <code>/exit</code> and run <code>claude</c=
+ode> again. Plugins load when a session starts. Accept the prompts to trust=
+ the folder and the plugin. Type <code>/marketing:</code> and you should se=
+e the plugin's commands appear.</p>
+  <div class=3D"code"><div class=3D"code-head"><span class=3D"chip check">C=
+HECK</span><span class=3D"code-desc">New session, then paste</span></div><p=
+re>Check that my studio is set up correctly. Don't change any files. Test i=
+t, don't just read it:
+1. Is the marketing plugin turned on for this project only? Compare .claude=
+/settings.json with what `claude plugin list` says about its scope.
+2. Can you use the plugin here right now? List the plugin commands you can =
+see whose names include campaign or brand.
+3. If a classmate clones this repo, will they get the same plugin? Explain =
+why, using what is actually in the repo.
+4. Is .claude/settings.local.json ignored by git? Prove it with `git check-=
+ignore -v .claude/settings.local.json`.
+Give me a short table: Check | OK or Problem | What you saw.
+Then ask me two quick questions, one at a time, about the difference betwee=
+n files the whole team shares and files that are only mine.</pre></div>
+  <div class=3D"outcomes"><div class=3D"ocard win"><div class=3D"okick">You=
+'ll know it worked when</div><ul class=3D"win-list">
+    <li><code>claude plugin list</code> shows marketing with Scope: project=
+.</li>
+    <li>You can see <code>/marketing:campaign-plan</code> and <code>/market=
+ing:brand-review</code>. The plugin is built for email, so in Step 6 a rule=
+ file will make Claude write SMS instead.</li>
+    <li><code>git check-ignore</code> names your .gitignore line.</li>
+  </ul></div><div class=3D"ocard exam"><div class=3D"okick">Exam note</div>=
+<p>Team standards go at project level: CLAUDE.md in the repo, <code>.claude=
+/settings.json</code>. Teammates get them when they clone. Your personal fi=
+les (<code>~/.claude/CLAUDE.md</code>, <code>settings.local.json</code>) ne=
+ver reach anyone else. If a new teammate isn't getting the instructions, th=
+ey sit at user level.</p></div></div>
+</section>
+<section class=3D"step" id=3D"step-3" data-step=3D"3">
+  <div class=3D"step-head"><div class=3D"num">3</div><div class=3D"meta"><d=
+iv class=3D"cap"><span class=3D"cap-text">Skill areas: @import, interview p=
+attern</span><span class=3D"xchip">3.1</span><span class=3D"xchip">3.5</spa=
+n></div><h3>Your brand voice</h3><p class=3D"sub">Let Claude interview you,=
+ then keep the voice in its own file that CLAUDE.md imports.</p></div><labe=
+l class=3D"done-box"><input type=3D"checkbox" id=3D"done-3"> Done</label></=
+div>
+  <div class=3D"plain"><p><strong>In plain words:</strong> a tailor takes y=
+our measurements before cutting the cloth. Here Claude asks first, then wri=
+tes. The <code>@brand/voice.md</code> line is a note pinned to the notice b=
+oard that says "also read the brand book".</p></div>
+  <div class=3D"code"><div class=3D"code-head"><span class=3D"chip build">B=
+UILD</span><span class=3D"code-desc">Paste in Claude Code</span></div><pre>=
+Interview me about my brand so you can write our brand voice guide. Ask one=
+ question at a time and wait for my answer. Ask at most six questions.
+If I don't have a brand, I'll say "use the sample": Chirpnet Mobile, a smal=
+l made-up mobile network launching a cheap late-night data bundle called Th=
+e Night Owl Bundle (midnight to 7 am), for prepaid subscribers who opted in=
+ to offers. Even with the sample, still ask me every question. I'll make up=
+ the answers, because practising the interview is the point.
+When you have enough, write brand/voice.md with five parts: our voice in th=
+ree words, words we use, words we avoid, claims we must never make (for exa=
+mple "unlimited" without a fair-use note, "free" when there are conditions,=
+ "fastest network"), and how every message starts and ends (our sender tag =
+and opt-out line). Then add the line @brand/voice.md to CLAUDE.md so it loa=
+ds in every session.</pre></div>
+  <p><strong>Then:</strong> Answer each question. Making things up is fine =
+with the sample. When the file is written, ask Claude to commit it.</p>
+  <div class=3D"code"><div class=3D"code-head"><span class=3D"chip check">C=
+HECK</span><span class=3D"code-desc">New session, then paste</span></div><p=
+re>Test my brand voice setup. Don't change any files.
+1. Without opening any file first, write one opening line for the Night Owl=
+ Bundle launch text. Then tell me which brand rules you followed and which =
+file they came from. (This shows whether brand/voice.md loads by itself.)
+2. Now write a line that says the Night Owl Bundle gives truly unlimited fr=
+ee data all night. If our rules forbid that, say which rule, and give me a =
+safe version instead.
+3. Run git status and tell me whether the brand files are committed.
+Give me a short table: Test | Pass or Fail | What happened.
+Then ask me two quick questions, one at a time, about why the brand rules l=
+ive in their own file that CLAUDE.md imports.</pre></div>
+  <div class=3D"outcomes"><div class=3D"ocard win"><div class=3D"okick">You=
+'ll know it worked when</div><ul class=3D"win-list">
+    <li>The fresh session follows your voice without opening any file, and =
+names <code>brand/voice.md</code> as the source.</li>
+    <li>It refuses the "unlimited free" line, names the rule, and offers a =
+safe line.</li>
+  </ul></div><div class=3D"ocard exam"><div class=3D"okick">Exam note</div>=
+<p><code>@import</code> keeps CLAUDE.md small: each project imports only th=
+e standards it needs. The interview pattern is for unfamiliar work: Claude =
+asks before it builds and raises things you didn't think of.</p><p><strong>=
+Exam answer:</strong> to see which memory files are loaded, use <code>/memo=
+ry</code>. In today's product, <code>/context</code> shows it.</p></div></d=
+iv>
+</section>
+<section class=3D"step" id=3D"step-4" data-step=3D"4">
+  <div class=3D"step-head"><div class=3D"num">4</div><div class=3D"meta"><d=
+iv class=3D"cap"><span class=3D"cap-text">Skill area: using a ready-made sk=
+ill</span><span class=3D"xchip">3.2</span></div><h3>Plan the campaign</h3><=
+p class=3D"sub">Use a ready-made skill from the plugin to turn an idea into=
+ a full plan.</p></div><label class=3D"done-box"><input type=3D"checkbox" i=
+d=3D"done-4"> Done</label></div>
+  <div class=3D"plain"><p><strong>In plain words:</strong> <code>/marketing=
+:campaign-plan</code> is a planning form a marketing team already tested. Y=
+ou fill in the blanks and it builds the structure.</p></div>
+  <div class=3D"code"><div class=3D"code-head"><span class=3D"chip build">B=
+UILD</span><span class=3D"code-desc">Paste in Claude Code</span></div><pre>=
+/marketing:campaign-plan Launch The Night Owl Bundle to our opted-in subscr=
+ibers.
+Goal: 500 subscribers activate the Night Owl Bundle in the first month.
+Audience: about 20,000 prepaid subscribers who opted in to offers, in three=
+ groups: students, gamers, and budget-callers.
+Timeline: 4 weeks, starting the first Monday of next month.
+Channel: SMS only, no paid ads. Every message must be sent between 9 am and=
+ 9 pm, never at night, even though the bundle is a night bundle.
+Save the finished plan to campaigns/night-owl-launch/plan.md, then commit i=
+t.</pre></div>
+  <div class=3D"code"><div class=3D"code-head"><span class=3D"chip check">C=
+HECK</span><span class=3D"code-desc">New session, then paste</span></div><p=
+re>Check the campaign plan in campaigns/night-owl-launch/plan.md. Don't cha=
+nge any files. Test it, don't just read it:
+1. Is there one goal with a number and a deadline?
+2. Does every message in the calendar have a send date, a send time, an aud=
+ience group and a purpose?
+3. Are all send times between 9 am and 9 pm? List any that aren't.
+4. Search the plan for any word or claim that brand/voice.md says to avoid.=
+ Quote every one you find, with its line.
+5. Do the dates fall on the weekdays the plan says? Work it out, don't gues=
+s.
+Give me a short table: Test | Pass or Fail | What you found.
+Then ask me two quick questions, one at a time, about why we used an existi=
+ng planning skill instead of writing our own prompt.</pre></div>
+  <div class=3D"outcomes"><div class=3D"ocard win"><div class=3D"okick">You=
+'ll know it worked when</div><ul class=3D"win-list">
+    <li><code>plan.md</code> has about ten sections: goal, audience, messag=
+es, channels, calendar, metrics and risks.</li>
+    <li>It leaves out claims your brand rules forbid, without being told.</=
+li>
+    <li>Watch for a calendar that gives weekdays but no actual dates or tim=
+es. If yours does, ask Claude to add them.</li>
+  </ul></div><div class=3D"ocard exam"><div class=3D"okick">Exam note</div>=
+<p>Type <code>/marketing:campaign-plan</code> with nothing after it and loo=
+k at the hint. That hint comes from the skill's <code>argument-hint</code> =
+setting, which tells you what to type when you run the skill without argume=
+nts.</p></div></div>
+</section>
+<section class=3D"step" id=3D"step-5" data-step=3D"5">
+  <div class=3D"step-head"><div class=3D"num">5</div><div class=3D"meta"><d=
+iv class=3D"cap"><span class=3D"cap-text">Skill areas: examples in prompts,=
+ folder-level CLAUDE.md</span><span class=3D"xchip">3.5</span><span class=
+=3D"xchip">3.1</span></div><h3>Practice subscribers</h3><p class=3D"sub">Us=
+e two example rows to get the exact format, and give one folder its own rul=
+es.</p></div><label class=3D"done-box"><input type=3D"checkbox" id=3D"done-=
+5"> Done</label></div>
+  <div class=3D"plain"><p><strong>In plain words:</strong> two example rows=
+ work like a photo of the dish instead of a description of it. <code>subscr=
+ibers/CLAUDE.md</code> is a sign on one room's door: Claude reads it when i=
+t walks into that room.</p></div>
+  <div class=3D"code"><div class=3D"code-head"><span class=3D"chip build">B=
+UILD</span><span class=3D"code-desc">Paste in Claude Code</span></div><pre>=
+Make a list of practice subscribers for our launch.
+Create subscribers/subscribers.csv with 24 made-up people who opted in to o=
+ffers, 8 in each group: students, gamers and budget-callers. Use exactly th=
+ese columns, and copy the style of these two example rows exactly:
+first_name,last_name,phone,group,joined_on,consent
+Ayesha,Khan,+12025550101,students,2026-09-14,opted-in via USSD
+Bilal,Ahmed,+12025550102,gamers,2026-09-22,opted-in via USSD
+Number the phones in order from +12025550101 to +12025550124. Numbers from =
+555-0100 to 555-0199 are set aside for films and books, so no real person h=
+as one and no real phone is ever texted.
+Then create subscribers/CLAUDE.md with rules for this folder only: these ar=
+e made-up practice people; never add real people or real phone numbers; eve=
+ry phone must be in the +1202555 01XX practice range; every row needs a con=
+sent value; never change the practice numbers.
+Commit when you're done.</pre></div>
+  <div class=3D"code"><div class=3D"code-head"><span class=3D"chip check">C=
+HECK</span><span class=3D"code-desc">New session, then paste</span></div><p=
+re>Test my practice subscribers. Don't change any files.
+1. Count the people in subscribers/subscribers.csv and how many are in each=
+ group. There should be 24, with 8 per group.
+2. Do all phone numbers match +1202555 followed by 01 and two digits? Are a=
+ny repeated? Use a command to check, don't eyeball.
+3. Does every row have a joined_on date and a consent value?
+4. Now open subscribers/subscribers.csv and pretend I asked: "Add my friend=
+ Sara Ali, +92 300 1234567, as a gamer." Before writing anything, tell me i=
+f any rule stops you, and quote it. Don't actually add her.
+Give me a short table: Test | Pass or Fail | What you found.
+Then ask me two quick questions, one at a time, about why some rules belong=
+ to one folder only.</pre></div>
+  <div class=3D"outcomes"><div class=3D"ocard win"><div class=3D"okick">You=
+'ll know it worked when</div><ul class=3D"win-list">
+    <li>24 people, 8 per group, every number in the practice range.</li>
+    <li>Claude refuses to add the real-looking number and quotes <code>subs=
+cribers/CLAUDE.md</code>, even though it never opened that file. It loaded =
+on its own when Claude opened a file in <code>subscribers/</code>.</li>
+  </ul></div><div class=3D"ocard exam"><div class=3D"okick">Exam note</div>=
+<p>When prose instructions get misread, give 2 to 3 input/output examples, =
+not more prose. A CLAUDE.md inside a subfolder loads when Claude works on f=
+iles in that folder.</p></div></div>
+</section>
+<section class=3D"step" id=3D"step-6" data-step=3D"6">
+  <div class=3D"step-head"><div class=3D"num">6</div><div class=3D"meta"><d=
+iv class=3D"cap"><span class=3D"cap-text">Skill areas: path rules</span><sp=
+an class=3D"xchip">3.3</span></div><h3>Message rule and launch messages</h3=
+><p class=3D"sub">Write a rule that attaches itself to every message file, =
+then write the messages.</p></div><label class=3D"done-box"><input type=3D"=
+checkbox" id=3D"done-6"> Done</label></div>
+  <div class=3D"plain"><p><strong>In plain words:</strong> a path rule is a=
+ sticky note that attaches itself to every message file, in any campaign fo=
+lder. CLAUDE.md is read for everything. This note shows up only when Claude=
+ works on a message.</p></div>
+  <div class=3D"code"><div class=3D"code-head"><span class=3D"chip build">B=
+UILD</span><span class=3D"code-desc">1 of 2 =C2=B7 Paste in Claude Code, th=
+en approve the edit</span></div><pre>Create a rule that applies to every SM=
+S message file in any campaign, and only to message files.
+Make .claude/rules/sms.md. It must start with exactly this front matter:
+---
+paths:
+- "campaigns/**/messages/*.md"
+---
+Under it, write the rule in plain English. Each message file must:
+- start with a line "Label: ..." of 40 characters or fewer (an internal nam=
+e, never sent), then one blank line, then the message body
+- have a body that starts with our sender tag "Chirpnet:"
+- greet the reader with {{first_name}}
+- have exactly one link, written as https://chirpnet.example/nightowl
+- end with the exact words: Reply STOP to opt out
+- keep the whole body to 160 characters or fewer, counting {{first_name}} a=
+s 10 characters, because a longer text is split and charged as two
+- use only plain keyboard characters: no emojis, no Urdu script and no curl=
+y quotes, because any of those cuts the limit to 70 characters
+Commit when you're done.</pre></div>
+  <p><strong>Then:</strong> Start a new session (<code>/exit</code>, then <=
+code>claude</code>) so the new rule is picked up.</p>
+  <div class=3D"code"><div class=3D"code-head"><span class=3D"chip build">B=
+UILD</span><span class=3D"code-desc">2 of 2 =C2=B7 Paste in the new session=
+</span></div><pre>Write the launch text messages for The Night Owl Bundle, =
+sent to all our opted-in subscribers.
+Use campaigns/night-owl-launch/plan.md for the goal, timing and key message=
+s, and brand/voice.md for our voice. Write 4 messages: a teaser, the launch=
+, a reminder, and a last-day message.
+Save each message as its own file in campaigns/night-owl-launch/messages/, =
+named 01-short-name.md, 02-short-name.md, and so on. Then commit.</pre></di=
+v>
+  <div class=3D"code"><div class=3D"code-head"><span class=3D"chip check">C=
+HECK</span><span class=3D"code-desc">New session, then paste</span></div><p=
+re>Test the messages in campaigns/night-owl-launch/messages/. Don't change =
+any files. Measure, don't eyeball: count characters and links with a comman=
+d where you can.
+For each message file, check:
+1. The Label line is 40 characters or fewer, and the body is 160 characters=
+ or fewer with {{first_name}} counted as 10. Give the real counts.
+2. The body starts with "Chirpnet:" and greets the reader with {{first_name=
+}}.
+3. It has exactly one link.
+4. It ends with "Reply STOP to opt out".
+5. It has no emojis, curly quotes or non-English script. Check every charac=
+ter.
+6. It uses no word or claim that brand/voice.md says to avoid.
+Give me one table with a row per message and a column per check (Pass or Fa=
+il, with the number or quote when it fails).
+Then ask me two quick questions, one at a time, about why this rule uses a =
+paths pattern instead of living in CLAUDE.md.</pre></div>
+  <div class=3D"outcomes"><div class=3D"ocard win"><div class=3D"okick">You=
+'ll know it worked when</div><ul class=3D"win-list">
+    <li>Four message files, each starting with <code>Label:</code>, with re=
+al character counts at 160 or under.</li>
+    <li>One link per message, the sender tag first and the STOP line last.<=
+/li>
+    <li>Watch for curly quotes (=E2=80=99) in words like "don't". They are =
+easy to miss and push a text into the 70-character limit. If the check find=
+s one, ask Claude to fix it.</li>
+  </ul></div><div class=3D"ocard exam"><div class=3D"okick">Exam note</div>=
+<p>For conventions that apply to files spread across folders, use <code>.cl=
+aude/rules/</code> with <code>paths:</code> patterns. A subfolder CLAUDE.md=
+ covers one folder only. One big CLAUDE.md with headings relies on Claude g=
+uessing. A skill only works when someone runs it. Use <code>/context</code>=
+ to see which rules loaded.</p></div></div>
+</section>
+<section class=3D"step" id=3D"step-7" data-step=3D"7">
+  <div class=3D"step-head"><div class=3D"num">7</div><div class=3D"meta"><d=
+iv class=3D"cap"><span class=3D"cap-text">Skill areas: fresh-session review=
+, one-message fixes</span><span class=3D"xchip">3.6</span><span class=3D"xc=
+hip">3.5</span><span class=3D"xchip">2.5</span></div><h3>Fresh-eyes review<=
+/h3><p class=3D"sub">Review in a new session, fix related problems in one m=
+essage, then confirm with search.</p></div><label class=3D"done-box"><input=
+ type=3D"checkbox" id=3D"done-7"> Done</label></div>
+  <div class=3D"plain"><p><strong>In plain words:</strong> when you proofre=
+ad your own letter, you see what you meant to write. A new session is a sec=
+ond reader who didn't write it.</p></div>
+  <div class=3D"code"><div class=3D"code-head"><span class=3D"chip build">B=
+UILD</span><span class=3D"code-desc">1 of 2 =C2=B7 New session, then paste<=
+/span></div><pre>/marketing:brand-review campaigns/night-owl-launch/message=
+s/
+Review all four messages against brand/voice.md and .claude/rules/sms.md. L=
+ist every problem by severity (high, medium or low), with the file, the lin=
+e and a suggested fix. Don't change any files yet.</pre></div>
+  <div class=3D"code"><div class=3D"code-head"><span class=3D"chip build">B=
+UILD</span><span class=3D"code-desc">2 of 2 =C2=B7 Same session, after you =
+read the review</span></div><pre>Fix all the problems from your review in o=
+ne message, keeping all four messages consistent with each other. If a fix =
+means changing a rule file too, change it. Leave anything only I can confir=
+m, like the bundle's real price or hours, and list it for me. Then commit.<=
+/pre></div>
+  <div class=3D"code"><div class=3D"code-head"><span class=3D"chip check">C=
+HECK</span><span class=3D"code-desc">New session, then paste</span></div><p=
+re>Check that the review fixes worked. Don't change any files.
+1. Use Glob to list every message file in every campaign.
+2. Use Grep to search all of them for curly quotes, emojis, and every word =
+that brand/voice.md says to avoid. There should be no matches.
+3. Use Grep to confirm every message ends with "Reply STOP to opt out".
+4. Run git show --stat HEAD and tell me which files the last commit changed.
+Give me a short table: Test | Pass or Fail | What you saw.
+Then ask me two quick questions, one at a time: why the review happened in =
+a new session, and why all the fixes went in one message.</pre></div>
+  <div class=3D"outcomes"><div class=3D"ocard win"><div class=3D"okick">You=
+'ll know it worked when</div><ul class=3D"win-list">
+    <li>The review lists problems by severity, such as a promise the networ=
+k might not keep ("never slows down").</li>
+    <li>After the fixes, Grep finds nothing, and the last commit touched on=
+ly message files and maybe the rule.</li>
+  </ul></div><div class=3D"ocard exam"><div class=3D"okick">Exam note</div>=
+<p>The session that wrote something keeps its own reasoning and rarely ques=
+tions it, so review in a fresh, independent session. Fixes that affect each=
+ other go in one detailed message; separate fixes can go one at a time. Glo=
+b finds files by name; Grep finds text inside files.</p></div></div>
+</section>
+<section class=3D"step" id=3D"step-8" data-step=3D"8">
+  <div class=3D"step-head"><div class=3D"num">8</div><div class=3D"meta"><d=
+iv class=3D"cap"><span class=3D"cap-text">Skill areas: skill settings</span=
+><span class=3D"xchip">3.2</span></div><h3>Your own skill: personalize</h3>=
+<p class=3D"sub">Build a skill with the three settings the exam asks about,=
+ and use it.</p></div><label class=3D"done-box"><input type=3D"checkbox" id=
+=3D"done-8"> Done</label></div>
+  <div class=3D"plain"><p><strong>In plain words:</strong> a skill is a rec=
+ipe card. Claude always sees the card's title, and reads the whole card onl=
+y when it cooks that dish. <code>context: fork</code> sends a helper to ano=
+ther kitchen to do the messy work; only the finished dish comes back to you=
+.</p></div>
+  <div class=3D"code"><div class=3D"code-head"><span class=3D"chip build">B=
+UILD</span><span class=3D"code-desc">1 of 2 =C2=B7 Paste in Claude Code, th=
+en approve the edit</span></div><pre>Create my own skill for this project a=
+t .claude/skills/personalize/SKILL.md.
+What it does: it takes a campaign folder and writes one version of each mes=
+sage for each subscriber group in subscribers/subscribers.csv (students, ga=
+mers and budget-callers). Each version keeps the same sender tag, link and =
+STOP line, but changes the opening words and one detail so it fits that gro=
+up, and still fits in 160 characters. It saves each version to &lt;campaign=
+ folder&gt;/groups/&lt;group&gt;/messages/ with the same file name. When it=
+ finishes, it replies with a short summary only: how many files it wrote, p=
+lus one example opening per group with its character count.
+Use exactly this front matter:
+---
+name: personalize
+description: Write a version of each campaign text message for every subscr=
+iber group in subscribers/subscribers.csv. Use when a campaign's messages a=
+re final and you want one copy per group.
+argument-hint: "[campaign folder]"
+context: fork
+allowed-tools: Read, Glob, Grep, Write
+---
+If no campaign folder is given, it should stop and list the campaign folder=
+s that exist. Commit when you're done.</pre></div>
+  <p><strong>Then:</strong> Start a new session so the skill is picked up.<=
+/p>
+  <div class=3D"code"><div class=3D"code-head"><span class=3D"chip build">B=
+UILD</span><span class=3D"code-desc">2 of 2 =C2=B7 Paste in the new session=
+</span></div><pre>/personalize campaigns/night-owl-launch</pre></div>
+  <p><strong>Then:</strong> Ask Claude: "Commit the new files with a clear =
+message."</p>
+  <div class=3D"code"><div class=3D"code-head"><span class=3D"chip check">C=
+HECK</span><span class=3D"code-desc">New session, then paste</span></div><p=
+re>Test my personalize skill and what it made. Don't change any files.
+1. Count the message files under campaigns/night-owl-launch/groups/. There =
+should be one per message per group: 4 messages times 3 groups is 12.
+2. Compare the original message 01 with each group's version using diff. On=
+ly the opening words and one detail should differ. Tell me if anything else=
+ changed.
+3. Check that every version still follows .claude/rules/sms.md: body 160 ch=
+aracters or fewer with {{first_name}} counted as 10, sender tag first, one =
+link, STOP line last, plain characters only. Measure, don't eyeball.
+4. Does any version use a word or claim that brand/voice.md forbids? Quote =
+it if so.
+Give me a short table: Test | Pass or Fail | What you found.
+Then ask me two quick questions, one at a time: what "context: fork" change=
+d about how the skill ran, and what "allowed-tools" did.</pre></div>
+  <div class=3D"outcomes"><div class=3D"ocard win"><div class=3D"okick">You=
+'ll know it worked when</div><ul class=3D"win-list">
+    <li>12 new files. Only the opening and one detail differ from the origi=
+nal.</li>
+    <li>Your main chat shows only a short summary, not the work itself.</li>
+    <li>The SMS rule applied to the new files too, because they also sit in=
+ a <code>messages/</code> folder.</li>
+  </ul></div><div class=3D"ocard exam"><div class=3D"okick">Exam note</div>=
+<p><code>context: fork</code> runs the skill in its own context, so long ou=
+tput stays out of your chat. <code>argument-hint</code> tells you what to t=
+ype when you run it with no arguments. A personal copy goes in <code>~/.cla=
+ude/skills/</code> under a different name, so it doesn't clash with the tea=
+m's.</p><p><strong>Exam answer:</strong> <code>allowed-tools</code> restric=
+ts which tools the skill can use. In the product it pre-approves the listed=
+ tools, and other tools still ask permission. You may see that happen. On t=
+he exam, answer "restricts".</p><p><strong>Not real:</strong> a <code>.clau=
+de/config.json</code> file with a <code>commands</code> list.</p></div></di=
+v>
+</section>
+<div class=3D"part" id=3D"part2"><div class=3D"part-kick">Part 2 =C2=B7 Ste=
+ps 9=E2=80=9311</div><h2>Send safely</h2><p class=3D"part-sub">Connect Twil=
+io through MCP, but point it at the practice server on your own laptop. The=
+n add a guard that makes sure no text can reach the wrong person.</p></div>
+<section class=3D"step" id=3D"step-9" data-step=3D"9">
+  <div class=3D"step-head"><div class=3D"num">9</div><div class=3D"meta"><d=
+iv class=3D"cap"><span class=3D"cap-text">Skill area: MCP</span><span class=
+=3D"xchip">2.4</span></div><h3>Connect Twilio in practice mode</h3><p class=
+=3D"sub">Connect a messaging service through MCP, with settings that are sa=
+fe by default.</p></div><label class=3D"done-box"><input type=3D"checkbox" =
+id=3D"done-9"> Done</label></div>
+  <div class=3D"plain"><p><strong>In plain words:</strong> an MCP server is=
+ a phone line from Claude to another service. Twilio's official line can't =
+be pointed at a practice server, so Claude builds a small line of our own. =
+In practice mode it goes to the pretend Twilio on your laptop, so nothing l=
+eaves your machine.</p></div>
+  <p><strong>Before you start:</strong> make sure the practice server from =
+Step 1 is running in your second window (<code>npx emulate@0.12.3 start --s=
+ervice twilio</code>, showing Ready). Leave it open for steps 9 to 11.</p>
+  <div class=3D"code"><div class=3D"code-head"><span class=3D"chip build">B=
+UILD</span><span class=3D"code-desc">Paste in Claude Code, then approve the=
+ edits</span></div><pre>Build a small MCP server so Claude can send text me=
+ssages through Twilio, in practice mode.
+1. Create mcp/sms-server.mjs, a Node MCP server that uses the official @mod=
+elcontextprotocol/sdk package over stdio. Add a package.json, install @mode=
+lcontextprotocol/sdk and zod with npm, and make sure node_modules is in .gi=
+tignore.
+2. It reads four environment variables: TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOK=
+EN, TWILIO_BASE_URL and TWILIO_FROM. It calls Twilio's REST API at &lt;TWIL=
+IO_BASE_URL&gt;/2010-04-01/Accounts/&lt;TWILIO_ACCOUNT_SID&gt;/Messages.jso=
+n with HTTP Basic auth (account sid and auth token), sending form fields To=
+, From and Body.
+3. Give it four tools, each with a clear description:
+- send-sms: send one message (to, body). Return the message sid, status and=
+ number of segments.
+- send-bulk-sms: send one body to a list of numbers.
+- list-messages: list sent messages, newest first, with sid, to, status, se=
+gments and the first 40 characters of the body.
+- get-message: look up one message by sid.
+4. Practice mode: only when TWILIO_BASE_URL starts with http://127.0.0.1 or=
+ http://localhost, right after each send, mark the message delivered by cal=
+ling POST &lt;TWILIO_BASE_URL&gt;/_twilio/simulate/message-status with the =
+form fields MessageSid and Status=3Ddelivered and the same Basic auth. The =
+practice server leaves messages "queued" otherwise. Never call this against=
+ real Twilio.
+5. If Twilio returns an error, return its code and message to Claude in pla=
+in words instead of crashing.
+6. Create .mcp.json in the project root with exactly this content:
+{
+  "mcpServers": {
+    "sms": {
+      "command": "node",
+      "args": ["mcp/sms-server.mjs"],
+      "env": {
+        "TWILIO_ACCOUNT_SID": "${TWILIO_ACCOUNT_SID:-AC00000000000000000000=
+000000000000}",
+        "TWILIO_AUTH_TOKEN": "${TWILIO_AUTH_TOKEN:-twilio_test_auth_token}",
+        "TWILIO_BASE_URL": "${TWILIO_BASE_URL:-http://127.0.0.1:4000}",
+        "TWILIO_FROM": "${TWILIO_FROM:-+15551234567}"
+      }
+    }
+  }
+}
+7. Update the rule in CLAUDE.md that says never to send a text message to r=
+eal people. Keep that rule, and add that sending is allowed only to Twilio'=
+s test number +15005550006 and to my own phone number, and that a guard wil=
+l enforce this in the next step.
+Commit. Then explain in two plain sentences what happens when I set nothing=
+, and what I would set to send for real.</pre></div>
+  <p><strong>Then:</strong> Start a new session and approve the <code>sms</=
+code> server when Claude Code asks. Type <code>/mcp</code>. You should see =
+<code>sms</code> connected with four tools.</p>
+  <div class=3D"code"><div class=3D"code-head"><span class=3D"chip check">C=
+HECK</span><span class=3D"code-desc">New session, then paste</span></div><p=
+re>Test my Twilio connection. Don't change any files.
+1. Use the sms MCP tools to send one message to +15005550006 with the body =
+"Connection test". Did it go through? Give me the message sid and the numbe=
+r of segments.
+2. Use the sms tools to list sent messages, and confirm that one shows up a=
+s delivered.
+3. Search the whole repo, including git history, for anything that looks li=
+ke a real Twilio secret: an Account SID (AC followed by 32 letters and digi=
+ts) other than the all-zero practice one, or a 32-character auth token othe=
+r than twilio_test_auth_token. There should be none.
+4. Are .mcp.json, mcp/sms-server.mjs and package.json committed, so a class=
+mate who clones the repo gets the same connection? Is node_modules left out?
+Give me a short table: Test | Pass or Fail | What you saw.
+Then ask me two quick questions, one at a time: why the token is written as=
+ ${TWILIO_AUTH_TOKEN:-twilio_test_auth_token} instead of a real token, and =
+what happens if I forget to set anything.</pre></div>
+  <div class=3D"outcomes"><div class=3D"ocard win"><div class=3D"okick">You=
+'ll know it worked when</div><ul class=3D"win-list">
+    <li>The test message gets a sid starting <code>SM</code> and shows as d=
+elivered.</li>
+    <li>Refresh the Twilio Inspector at <code>http://127.0.0.1:4000</code>:=
+ the message is there too.</li>
+    <li>No real secret appears anywhere in the repo or its history.</li>
+  </ul></div><div class=3D"ocard exam"><div class=3D"okick">Exam note</div>=
+<p>The team's servers go in <code>.mcp.json</code>, which is committed. You=
+r personal or experimental servers go in <code>~/.claude.json</code>. Crede=
+ntials use <code>${VAR}</code> expansion, so no secret ever lands in the re=
+po. <code>${VAR:-default}</code> means "use my setting if I have one, other=
+wise this safe value". If Claude keeps picking Grep over an MCP tool, the t=
+ool's description is too thin, which is why the build prompt asks for clear=
+ descriptions.</p></div></div>
+  <p><strong>If something goes wrong:</strong></p>
+  <ul class=3D"plainlist">
+    <li><strong>fetch failed or connection refused:</strong> the practice s=
+erver isn't running, or a setting says localhost. Start the server again, a=
+nd use 127.0.0.1.</li>
+    <li><strong>sms shows "failed" in /mcp:</strong> run <code>npm install<=
+/code> in the studio folder. If it still fails, ask Claude to put the full =
+path to <code>mcp/sms-server.mjs</code> in <code>.mcp.json</code>.</li>
+    <li><strong>Error 21606:</strong> the From number isn't the practice se=
+rver's own. Leave <code>TWILIO_FROM</code> unset so it uses <code>+15551234=
+567</code>.</li>
+    <li><strong>Pending approval:</strong> start <code>claude</code> and ap=
+prove the <code>sms</code> server.</li>
+  </ul>
+</section>
+<section class=3D"step" id=3D"step-10" data-step=3D"10">
+  <div class=3D"step-head"><div class=3D"num">10</div><div class=3D"meta"><=
+div class=3D"cap"><span class=3D"cap-text">Skill area: hooks</span><span cl=
+ass=3D"xchip">1.5</span></div><h3>The safety guard</h3><p class=3D"sub">Mak=
+e a rule Claude cannot break, using a hook.</p></div><label class=3D"done-b=
+ox"><input type=3D"checkbox" id=3D"done-10"> Done</label></div>
+  <div class=3D"plain"><p><strong>In plain words:</strong> CLAUDE.md asks C=
+laude to behave. A hook is a guard at the exchange who checks every text be=
+fore it leaves. Claude can't talk its way past the guard.</p></div>
+  <div class=3D"code"><div class=3D"code-head"><span class=3D"chip build">B=
+UILD</span><span class=3D"code-desc">Replace [your phone] before you press =
+Enter</span></div><pre>Add a safety guard so Claude can never text the wron=
+g people, even by mistake. CLAUDE.md asks nicely. This guard makes sure.
+1. Write .claude/hooks/send-guard.mjs, a small Node script for a PreToolUse=
+ hook. It reads the tool call as JSON from standard input and looks at tool=
+_name and tool_input. Tool names arrive like mcp__sms__send-sms, so look at=
+ the part after mcp__sms__.
+- For send-sms: the "to" number must be +15005550006 or match my own number=
+, which comes from the MY_PHONE environment variable. Compare digits only, =
+ignoring spaces, dashes and brackets. If it doesn't match, print a short re=
+ason that names the number and exit with code 2 to block the call.
+- For send-bulk-sms: always block, with a short reason, because it can reac=
+h whole lists of people.
+- For anything else: exit 0 to allow it.
+2. Register it in .claude/settings.json as a PreToolUse hook with the match=
+er mcp__sms__.* and this command:
+node "$CLAUDE_PROJECT_DIR/.claude/hooks/send-guard.mjs"
+Keep everything that is already in that file.
+3. Put my own number in .claude/settings.local.json like this: "env": { "MY=
+_PHONE": "[your phone]" }. That file is only mine and is not committed.
+4. Commit the hook and .claude/settings.json.</pre></div>
+  <div class=3D"code"><div class=3D"code-head"><span class=3D"chip check">C=
+HECK</span><span class=3D"code-desc">New session, then paste</span></div><p=
+re>Test the send guard for real. Don't change any files.
+1. Use the sms send-sms tool to send message 01 from campaigns/night-owl-la=
+unch/messages/ to Ayesha, the first person in subscribers/subscribers.csv, =
+at her number. This should be blocked. Quote the block message word for wor=
+d.
+2. Send the same message to +15005550006. This should go through.
+3. Send it to my own number, the MY_PHONE value in .claude/settings.local.j=
+son. This should go through too.
+4. Try send-bulk-sms to +15005550006 alone. This should be blocked.
+5. Run git check-ignore -v .claude/settings.local.json to prove my number i=
+s not committed.
+Don't try to get around a block. Give me a short table: Test | Pass or Fail=
+ | What happened.
+Then ask me two quick questions, one at a time: what the difference is betw=
+een the CLAUDE.md rule and this guard, and what exit code 2 means for a hoo=
+k.</pre></div>
+  <div class=3D"outcomes"><div class=3D"ocard win"><div class=3D"okick">You=
+'ll know it worked when</div><ul class=3D"win-list">
+    <li>The send to Ayesha is blocked, with the guard's own message naming =
+her number.</li>
+    <li>The sends to <code>+15005550006</code> and to your number go throug=
+h. The bulk send is blocked even to the test number.</li>
+  </ul></div><div class=3D"ocard exam"><div class=3D"okick">Exam note</div>=
+<p><strong>Tip:</strong> Write your number in international format, for exa=
+mple <code>+923001234567</code>. The practice server never texts it; it onl=
+y becomes the one real number the guard allows. If you ever send for real, =
+a Twilio trial account can only text numbers you have verified, so use the =
+same one.</p></div></div>
+  <div class=3D"note"><p><strong>Exam note:</strong> The guide names only P=
+ostToolUse, for cleaning up tool results. It describes blocking as "tool ca=
+ll interception" without naming the hook. In the product, <strong>PreToolUs=
+e</strong> is what blocks, with exit code 2 or a deny decision, and PostToo=
+lUse can't block. On the exam, match the behaviour described.</p></div>
+</section>
+<section class=3D"step" id=3D"step-11" data-step=3D"11">
+  <div class=3D"step-head"><div class=3D"num">11</div><div class=3D"meta"><=
+div class=3D"cap"><span class=3D"cap-text">Real-world skill</span></div><h3=
+>Practice launch</h3><p class=3D"sub">Send each group its first message, sa=
+fely, and check that it was delivered.</p></div><label class=3D"done-box"><=
+input type=3D"checkbox" id=3D"done-11"> Done</label></div>
+  <div class=3D"code"><div class=3D"code-head"><span class=3D"chip build">B=
+UILD</span><span class=3D"code-desc">Paste in Claude Code</span></div><pre>=
+Let's do a practice launch.
+For each subscriber group, send that group's version of message 01 (from ca=
+mpaigns/night-owl-launch/groups/&lt;group&gt;/messages/) to +15005550006. S=
+end only the body, not the Label line. Put the group name in square bracket=
+s at the very start of the body, like [gamers]. Replace {{first_name}} with=
+ "there".
+Then list the messages you sent and show me a table: group, body length, se=
+gments, status.</pre></div>
+  <div class=3D"code"><div class=3D"code-head"><span class=3D"chip check">C=
+HECK</span><span class=3D"code-desc">New session, then paste</span></div><p=
+re>Check my practice launch. Don't send anything new and don't change any f=
+iles.
+1. Use the sms tools to list sent messages. Find the three whose bodies sta=
+rt with [students], [gamers] and [budget-callers].
+2. For each one, look up its status. Is it delivered?
+3. Confirm that every message in the list went only to +15005550006 or to m=
+y own number, the MY_PHONE value in .claude/settings.local.json. List any t=
+hat didn't.
+4. Compare each sent body with the body in that group's message 01 file. Do=
+ they match, apart from the [group] tag and "there"?
+5. Did any message need 2 segments? If so, by how many characters did the [=
+group] tag push it over?
+Give me a short table: Test | Pass or Fail | What you saw.
+Then ask me two quick questions, one at a time: what would change if I swit=
+ched from practice mode to my real Twilio account, and why the guard still =
+matters then.</pre></div>
+  <div class=3D"outcomes single"><div class=3D"ocard win"><div class=3D"oki=
+ck">You'll know it worked when</div><p>Three messages tagged <code>[student=
+s]</code>, <code>[gamers]</code> and <code>[budget-callers]</code> are all =
+delivered, all to the test number. If one needed two segments, that is a re=
+al lesson: every extra character costs money at scale.</p></div></div>
+  <h4>Optional: send one real text to yourself</h4>
+  <ol class=3D"steps-list">
+    <li>Sign up for a free Twilio trial at twilio.com and verify your own p=
+hone number (the same as <code>MY_PHONE</code>). Note your Account SID, Aut=
+h Token and the trial phone number Twilio gives you. Never paste them into =
+a file or into the chat.</li>
+    <li>In the Twilio Console, check that SMS to your country is allowed un=
+der Messaging Geographic Permissions.</li>
+    <li>Close Claude Code. In PowerShell, set these for this window only:<b=
+r>
+      <code>$env:TWILIO_ACCOUNT_SID=3D"AC_your_sid"</code><br>
+      <code>$env:TWILIO_AUTH_TOKEN=3D"your_token"</code><br>
+      <code>$env:TWILIO_FROM=3D"+1_your_trial_number"</code><br>
+      <code>$env:TWILIO_BASE_URL=3D"https://api.twilio.com"</code></li>
+    <li>Run <code>claude</code> in that same window and ask: "Send the stud=
+ents version of message 01 to my own number, the MY_PHONE value."</li>
+    <li>Check your phone. A trial account only delivers to verified numbers=
+ and adds a trial notice to the text, and the guard blocks everyone else an=
+yway. The practice "mark delivered" call is skipped, because the address is=
+n't 127.0.0.1.</li>
+  </ol>
+</section>
+<div class=3D"part" id=3D"part3"><div class=3D"part-kick">Part 3 =C2=B7 Ste=
+ps 12=E2=80=9314</div><h2>Work like a team</h2><p class=3D"part-sub">Pick w=
+ork up across days, try two ideas side by side, review automatically, and p=
+ackage your tools for the next client.</p></div>
+<section class=3D"step" id=3D"step-12" data-step=3D"12">
+  <div class=3D"step-head"><div class=3D"num">12</div><div class=3D"meta"><=
+div class=3D"cap"><span class=3D"cap-text">Skill area: sessions</span><span=
+ class=3D"xchip">1.7</span></div><h3>Resume and fork</h3><p class=3D"sub">P=
+ick up earlier work by name, and try two ideas from the same starting point=
+.</p></div><label class=3D"done-box"><input type=3D"checkbox" id=3D"done-12=
+"> Done</label></div>
+  <div class=3D"plain"><p><strong>In plain words:</strong> a named session =
+is a bookmark. A fork is a fork in the road: two paths from the same spot. =
+Forks share the files on your computer, but not the conversation.</p></div>
+  <ol class=3D"steps-list">
+    <li><strong>Part A, start a named session:</strong> <code>claude -n lau=
+nch-angles</code><br>Paste: <em>Read campaigns/night-owl-launch/plan.md and=
+ each group's version of message 01. In five short bullets, tell me what ea=
+ch subscriber group cares about most. Don't write any files.</em> Then <cod=
+e>/exit</code>.</li>
+    <li><strong>Part B, come back later:</strong> <code>claude --resume lau=
+nch-angles</code><br>Paste: <em>Remind me: what did you say the gamers care=
+ about most? One sentence.</em> Then <code>/exit</code>.</li>
+    <li><strong>Part C, first fork, with its own name:</strong> <code>claud=
+e --resume launch-angles --fork-session -n angle-a</code><br>Paste: <em>Ang=
+le A: write three opening lines for message 01 (the words right after "Chir=
+pnet:") that focus on saving money at night. Each 50 characters or fewer. S=
+ave them to notes/angle-a.md.</em> Then <code>/exit</code>.</li>
+    <li><strong>Part D, second fork, from the same spot:</strong> <code>cla=
+ude --resume launch-angles --fork-session -n angle-b</code><br>Paste: <em>B=
+efore you start: do you know anything about an Angle A from our conversatio=
+n? Answer yes or no first.</em> Then: <em>Angle B: write three opening line=
+s for message 01 that focus on gaming and streaming all night. Each 50 char=
+acters or fewer. Save them to notes/angle-b.md.</em> Then <code>/exit</code=
+>.</li>
+    <li><strong>Part E, start fresh from a summary.</strong> Run <code>clau=
+de --resume launch-angles</code> and ask: <em>"Read notes/angle-a.md and no=
+tes/angle-b.md. Then write notes/handoff.md in 10 lines or fewer: what each=
+ group cares about, both angles, and which one you'd pick and why."</em> Th=
+en start a brand-new session with <code>claude</code> and ask: <em>"Read no=
+tes/handoff.md and continue from it: write the final version of message 01,=
+ following .claude/rules/sms.md."</em></li>
+  </ol>
+  <div class=3D"code"><div class=3D"code-head"><span class=3D"chip check">C=
+HECK</span><span class=3D"code-desc">New session, then paste</span></div><p=
+re>Check my session experiment. Don't change any files.
+1. Do notes/angle-a.md and notes/angle-b.md each have three opening lines o=
+f 50 characters or fewer? Count them.
+2. Does either file use the other angle's idea? They were written in separa=
+te forks, so they shouldn't.
+3. Is notes/handoff.md 10 lines or fewer, and does everything it says match=
+ the files it describes?
+Give me a short table: Test | Pass or Fail | What you saw.
+Then ask me two quick questions, one at a time: when I should resume a sess=
+ion and when I should start fresh with a summary, and what --fork-session g=
+ave me that resuming didn't.</pre></div>
+  <div class=3D"outcomes"><div class=3D"ocard win"><div class=3D"okick">You=
+'ll know it worked when</div><ul class=3D"win-list">
+    <li>The resumed session remembers what it said about gamers.</li>
+    <li>Fork B answers "no" about Angle A's conversation. It may notice the=
+ <code>angle-a.md</code> file, because forks share files.</li>
+  </ul></div><div class=3D"ocard exam"><div class=3D"okick">Exam note</div>=
+<p>To continue a specific earlier investigation, use <code>--resume &lt;ses=
+sion-name&gt;</code>. To compare two approaches from one shared starting po=
+int, use fork_session; on the command line that's <code>--fork-session</cod=
+e>. If the old tool results are stale, start fresh with a structured summar=
+y. If files changed since then, name the changed files so Claude re-checks =
+only those.</p></div></div>
+  <p><strong>If something goes wrong:</strong> if you see "matches 2 sessio=
+ns", you forked without <code>-n</code>, so the fork kept the original name=
+. Use one of the session ids the error prints, and name forks from now on.<=
+/p>
+</section>
+<section class=3D"step" id=3D"step-13" data-step=3D"13">
+  <div class=3D"step-head"><div class=3D"num">13</div><div class=3D"meta"><=
+div class=3D"cap"><span class=3D"cap-text">Skill area: headless mode</span>=
+<span class=3D"xchip">3.6</span></div><h3>Automatic review</h3><p class=3D"=
+sub">Run Claude without chatting, and get results a program can read.</p></=
+div><label class=3D"done-box"><input type=3D"checkbox" id=3D"done-13"> Done=
+</label></div>
+  <div class=3D"plain"><p><strong>In plain words:</strong> instead of chatt=
+ing, you hand Claude a job sheet and it hands back a filled-in form. The fo=
+rm's shape, called a schema, never changes, so a program can read it.</p></=
+div>
+  <div class=3D"code"><div class=3D"code-head"><span class=3D"chip build">B=
+UILD</span><span class=3D"code-desc">1 of 2 =C2=B7 Paste in Claude Code</sp=
+an></div><pre>Make a review that runs without anyone typing, so it can late=
+r run on every pull request.
+1. Create review/findings.schema.json: a JSON Schema for an object with a "=
+findings" array. Each finding has file, line (a number), severity ("high", =
+"medium" or "low"), problem and fix. All five are required.
+2. Create scripts/review.mjs, a small Node script that takes a campaign fol=
+der and runs Claude Code headless, like this:
+claude -p "Review every message in &lt;folder&gt; against brand/voice.md an=
+d .claude/rules/sms.md. Measure lengths with a command. Report only real pr=
+oblems." --output-format json --json-schema "&lt;the schema file's text&gt;=
+" --allowedTools "Read,Glob,Grep,Bash"
+The output may be one JSON object, or a list whose last item is the result,=
+ so handle both. Take structured_output, save it to review/findings.json, p=
+rint a one-line summary, and exit with code 1 if any finding is high severi=
+ty. It must work in Windows PowerShell, so call claude through Node's child=
+_process without relying on Bash quoting.
+3. To prove it catches problems, write a deliberately bad message at campai=
+gns/test-bad/messages/01-bad.md. It should break our rules with "truly unli=
+mited free data", a "last chance" line, two links, no STOP line, one emoji,=
+ and a body over 160 characters. Then run: node scripts/review.mjs campaign=
+s/test-bad
+4. Run it on campaigns/night-owl-launch too, then commit everything.
+Tell me what each run found and what exit code it gave.</pre></div>
+  <div class=3D"code"><div class=3D"code-head"><span class=3D"chip build">B=
+UILD</span><span class=3D"code-desc">2 of 2 =C2=B7 Same session</span></div=
+><pre>Improve scripts/review.mjs so a second review doesn't repeat itself.
+If review/findings.json already exists for the same folder, include those e=
+arlier findings in the prompt and add: "These are findings from the last re=
+view. Report only problems that are new or still not fixed. Don't repeat on=
+es that have been fixed." To make that work, save the folder name inside re=
+view/findings.json too.
+Then test it:
+1. Run node scripts/review.mjs campaigns/test-bad and note the findings.
+2. Fix only the "truly unlimited free data" claim in campaigns/test-bad/mes=
+sages/01-bad.md (change it to something allowed).
+3. Run the review again on campaigns/test-bad.
+Tell me: did the unlimited-free finding disappear, and did anything get rep=
+orted twice? Commit when done.</pre></div>
+  <div class=3D"code"><div class=3D"code-head"><span class=3D"chip check">C=
+HECK</span><span class=3D"code-desc">New session, then paste</span></div><p=
+re>Test my automatic review. The script rewrites review/findings.json; don'=
+t change any other file.
+1. Run node scripts/review.mjs campaigns/test-bad. Did it exit with code 1?=
+ Does every finding in review/findings.json have all five fields from revie=
+w/findings.schema.json, with severity high, medium or low?
+2. Did it catch the missing "Reply STOP to opt out" line and the second lin=
+k? Quote those findings.
+3. Run node scripts/review.mjs campaigns/night-owl-launch. Did it exit with=
+ code 0?
+4. Read scripts/review.mjs. Does it handle both output shapes (one object, =
+or a list), and what does it do if claude fails?
+Give me a short table: Test | Pass or Fail | What you saw.
+Then ask me two quick questions, one at a time: why a separate headless run=
+ does the review instead of the session that wrote the messages, and why we=
+ ask for JSON that matches a schema instead of plain text.</pre></div>
+  <div class=3D"outcomes"><div class=3D"ocard win"><div class=3D"okick">You=
+'ll know it worked when</div><ul class=3D"win-list">
+    <li>The bad message gives exit code 1 with findings like the unlimited-=
+free claim, the missing STOP line and the second link. Your real campaign g=
+ives exit code 0.</li>
+    <li>After you fix one problem, the next review drops it and repeats not=
+hing.</li>
+    <li>Reviews vary a little from run to run. That's why the script only f=
+ails on high severity.</li>
+  </ul></div><div class=3D"ocard exam"><div class=3D"okick">Exam note</div>=
+<p><code>-p</code> runs Claude without waiting for input, which fixes a CI =
+job that hangs. <code>--output-format json</code> with <code>--json-schema<=
+/code> gives results a program can read. CLAUDE.md holds the review rules f=
+or CI runs. On a re-review, include the earlier findings and ask for only n=
+ew or still-unfixed problems.</p><p><strong>Not real:</strong> <code>CLAUDE=
+_HEADLESS=3Dtrue</code> and <code>--batch</code>. In the product, <code>--j=
+son-schema</code> takes the schema's text, not a file name.</p></div></div>
+  <p><strong>Optional: every pull request.</strong> If your studio is on Gi=
+tHub, ask Claude to add a GitHub Actions workflow that runs <code>node scri=
+pts/review.mjs</code> on pull requests. It needs your <code>ANTHROPIC_API_K=
+EY</code> saved as a repository secret.</p>
+</section>
+<section class=3D"step" id=3D"step-14" data-step=3D"14">
+  <div class=3D"step-head"><div class=3D"num">14</div><div class=3D"meta"><=
+div class=3D"cap"><span class=3D"cap-text">Skill area: plugins, plan mode</=
+span><span class=3D"xchip">3.4</span></div><h3>Package your studio kit</h3>=
+<p class=3D"sub">Plan first, turn the reusable parts into a plugin, and use=
+ it for a second client.</p></div><label class=3D"done-box"><input type=3D"=
+checkbox" id=3D"done-14"> Done</label></div>
+  <div class=3D"plain"><p><strong>In plain words:</strong> a plugin is a to=
+olbox you carry from client to client. Each client's brand book stays in th=
+at client's own office.</p></div>
+  <p><strong>Before you start:</strong> Press Shift+Tab until the bottom of=
+ the screen says plan mode. Claude will read and plan, but write nothing un=
+til you accept.</p>
+  <div class=3D"code"><div class=3D"code-head"><span class=3D"chip build">B=
+UILD</span><span class=3D"code-desc">1 of 3 =C2=B7 Paste in plan mode</span=
+></div><pre>Plan this first. Don't build anything yet.
+I want to package the reusable parts of this studio as a plugin, so I can u=
+se them for my next client. Plan a new folder next to this one, called stud=
+io-kit, with:
+- .claude-plugin/plugin.json (name studio-kit, version 0.1.0, a one-line de=
+scription) and .claude-plugin/marketplace.json listing the plugin with sour=
+ce "./"
+- skills/personalize/SKILL.md, copied from our skill, with anything Chirpne=
+t-specific made general
+- hooks/hooks.json, registering our send guard as a PreToolUse hook on mcp_=
+_sms__.*, using ${CLAUDE_PLUGIN_ROOT} instead of $CLAUDE_PROJECT_DIR, plus =
+hooks/send-guard.mjs
+- agents/sms-reviewer.md: a subagent that reviews message files against the=
+ project's brand voice and SMS rules, using only Read, Glob and Grep
+- review/findings.schema.json and scripts/review.mjs
+- README.md: what's inside and how to install it
+Brand voice, subscribers, campaigns, .mcp.json and the mcp/ folder stay in =
+each client's own repo. The README should say why.
+Tell me which files you'll create, what you'll change from the originals, a=
+nd anything that won't work outside this studio.</pre></div>
+  <p><strong>Then:</strong> Read the plan. Find one thing it says won't tra=
+vel to a new client. Then accept the plan.</p>
+  <div class=3D"code"><div class=3D"code-head"><span class=3D"chip build">B=
+UILD</span><span class=3D"code-desc">2 of 3 =C2=B7 After you read the plan<=
+/span></div><pre>The plan looks good. Build it. When it's built, run claude=
+ plugin validate on studio-kit and fix anything it reports.</pre></div>
+  <div class=3D"code"><div class=3D"code-head"><span class=3D"chip build">B=
+UILD</span><span class=3D"code-desc">3 of 3 =C2=B7 Same session</span></div=
+><pre>Set up a second, made-up client so I can test studio-kit somewhere ne=
+w. Create a folder next to this one called client-two, for a small tea-and-=
+snacks cafe chain called Chai Junction, with:
+- brand/voice.md: a short voice guide (warm and friendly, no health claims,=
+ sender tag "ChaiJunction:", end every message with "Reply STOP to opt out")
+- CLAUDE.md: one paragraph about the studio, plus the line @brand/voice.md
+- subscribers/subscribers.csv: 6 made-up people in two groups, office-regul=
+ars and weekend-families, all with practice numbers from +12025550151 to +1=
+2025550156, with the same columns as our subscribers file
+- subscribers/CLAUDE.md: our subscriber folder rules, plus a "Groups" secti=
+on with one line describing each group
+- .claude/rules/sms.md, .mcp.json, package.json and mcp/sms-server.mjs, cop=
+ied from this studio, but change the SMS rule's sender tag and link to Chai=
+ Junction's (use https://chaijunction.example/winter)
+- campaigns/winter-chai/messages/01-hello.md: one short message that follow=
+s the SMS rules
+Then run npm install and git init in client-two and commit everything there=
+. Don't install studio-kit; I'll load it myself.</pre></div>
+  <p><strong>Then:</strong> <code>/exit</code>, then <code>cd ..\client-two=
+</code>. Start Claude Code with your kit loaded: <code>claude --plugin-dir =
+..\studio-kit</code>. Approve the sms server when asked. Keep the practice =
+server running.</p>
+  <div class=3D"code"><div class=3D"code-head"><span class=3D"chip check">C=
+HECK</span><span class=3D"code-desc">Inside client-two, then paste</span></=
+div><pre>Test the studio-kit plugin in this client. Only the personalize sk=
+ill may write files.
+1. Is the studio-kit plugin loaded? List the studio-kit skills and agents y=
+ou can see.
+2. Use the studio-kit personalize skill on campaigns/winter-chai. Check tha=
+t it wrote one version of the message for each group in subscribers/subscri=
+bers.csv.
+3. Use the sms send-sms tool to send campaigns/winter-chai/messages/01-hell=
+o.md to the first person in subscribers/subscribers.csv. The kit's guard sh=
+ould block it. Quote the block message word for word, and don't try to get =
+around it.
+4. Search the ../studio-kit folder for the word Chirpnet. There should be n=
+o matches.
+Give me a short table: Test | Pass or Fail | What happened.
+Then ask me two quick questions, one at a time: what belongs in the plugin =
+versus in each client's own repo, and why the guard is a PreToolUse hook in=
+stead of a PostToolUse one.</pre></div>
+  <div class=3D"outcomes"><div class=3D"ocard win"><div class=3D"okick">You=
+'ll know it worked when</div><ul class=3D"win-list">
+    <li><code>claude plugin validate</code> says Validation passed. A missi=
+ng-icon warning is fine.</li>
+    <li>In client-two you see <code>studio-kit:personalize</code> and <code=
+>studio-kit:sms-reviewer</code>. Personalize uses the cafe's own groups.</l=
+i>
+    <li>The kit's guard blocks a send to a cafe subscriber.</li>
+  </ul></div><div class=3D"ocard exam"><div class=3D"okick">Exam note</div>=
+<p>Use plan mode when a task is large, has several valid approaches, involv=
+es design decisions or touches many files. If the question already says the=
+ task is complex, plan from the start; "start direct and switch if it gets =
+complex" is the trap answer. Plugins themselves aren't on the exam, and CLA=
+UDE.md and rules always stay in the repo.</p></div></div>
+  <p><strong>If something goes wrong:</strong> if "Chirpnet" shows up in cl=
+ient-two, a rule was copied without being adapted. Rules belong to each cli=
+ent, so ask Claude to update the sender tag and link for Chai Junction. If =
+the guard doesn't fire, set <code>MY_PHONE</code> in client-two's own <code=
+>.claude/settings.local.json</code> too.</p>
+</section>
+<div class=3D"part" id=3D"stretch"><div class=3D"part-kick">Stretch =C2=B7 =
+Step 15</div><h2>Stretch</h2><p class=3D"part-sub">Work with a large pile o=
+f customer feedback and keep Claude accurate when memory fills up.</p></div>
+<section class=3D"step" id=3D"step-15" data-step=3D"15">
+  <div class=3D"step-head"><div class=3D"num">15</div><div class=3D"meta"><=
+div class=3D"cap"><span class=3D"cap-text">Skill areas: scratchpads, subage=
+nts, /compact</span><span class=3D"xchip">5.4</span></div><h3>What subscrib=
+ers love and hate</h3><p class=3D"sub">Keep track of findings across many f=
+iles, even after Claude's memory is squeezed.</p></div><label class=3D"done=
+-box"><input type=3D"checkbox" id=3D"done-15"> Done</label></div>
+  <div class=3D"plain"><p><strong>In plain words:</strong> when Claude's me=
+mory gets squeezed, a notebook still has everything. So write in the notebo=
+ok as you go, not at the end.</p></div>
+  <div class=3D"code"><div class=3D"code-head"><span class=3D"chip build">B=
+UILD</span><span class=3D"code-desc">1 of 3 =C2=B7 Paste in Claude Code, in=
+ the Chirpnet studio</span></div><pre>Create practice data: notes/feedback/=
+ with 120 short made-up text replies and support messages from subscribers =
+about Chirpnet's earlier Weekend Data Pack, in 6 files of 20 each (feedback=
+-1.md to feedback-6.md). Make them varied and realistic: name specific apps=
+ and times, mix praise with complaints (slow speed at peak hours, the pack =
+expiring before the weekend ended, balance cut without a message, a confusi=
+ng activation code, long waits at the helpline), and give each one a 1 to 5=
+ rating. Don't summarise them.</pre></div>
+  <p><strong>Then:</strong> Start a named session: <code>claude -n feedback=
+-dig</code></p>
+  <div class=3D"code"><div class=3D"code-head"><span class=3D"chip build">B=
+UILD</span><span class=3D"code-desc">2 of 3 =C2=B7 Paste in the named sessi=
+on</span></div><pre>Find the top 5 things subscribers love and the top 3 co=
+mplaints across all the messages in notes/feedback/.
+Use a subagent to read the feedback files, so the raw messages don't fill u=
+p this conversation. Tell the subagent to keep a scratchpad at notes/scratc=
+hpad.md and to add to it after each file, one line per finding: the file, t=
+he finding, how many messages mention it, and one short quote. At the end, =
+give me the top 5 and top 3 with how often each came up.</pre></div>
+  <p><strong>Then:</strong> Type <code>/compact</code>. This squeezes the c=
+onversation into a short summary.</p>
+  <div class=3D"code"><div class=3D"code-head"><span class=3D"chip build">B=
+UILD</span><span class=3D"code-desc">3 of 3 =C2=B7 Same session, after /com=
+pact</span></div><pre>Which feedback file had the most complaints about the=
+ pack expiring before the weekend ended? Quote one. Answer from memory firs=
+t. Then check notes/scratchpad.md and the files, and tell me whether your m=
+emory was right.</pre></div>
+  <div class=3D"code"><div class=3D"code-head"><span class=3D"chip check">C=
+HECK</span><span class=3D"code-desc">New session, then paste</span></div><p=
+re>Check my scratchpad. Don't change any files.
+1. Does notes/scratchpad.md have lines for every file in notes/feedback/?
+2. Pick three lines and check each one against the feedback file it names: =
+is the quote real, and is the count right?
+Give me a short table: Test | Pass or Fail | What you found.
+Then ask me two quick questions, one at a time: why we write to a scratchpa=
+d as we go, and what /compact does to Claude's memory.</pre></div>
+  <div class=3D"outcomes"><div class=3D"ocard win"><div class=3D"okick">You=
+'ll know it worked when</div><ul class=3D"win-list">
+    <li>Your main session only sends work to a subagent. The raw messages n=
+ever fill your chat.</li>
+    <li>After <code>/compact</code>, memory gets details wrong or can't ans=
+wer, and the scratchpad can.</li>
+    <li>A thin scratchpad (one line per file) can't answer either. Write on=
+e line per finding.</li>
+  </ul></div><div class=3D"ocard exam"><div class=3D"okick">Exam note</div>=
+<p>The warning sign is answers that stop matching earlier findings, or that=
+ talk about "typical patterns" instead of the specific things found. The fi=
+xes are scratchpad files, subagents, summaries between phases, saved state =
+files, and <code>/compact</code>. A bigger context window is never the answ=
+er.</p></div></div>
+</section>
+<div class=3D"part" id=3D"exam-wrap"></div>
+<h2 id=3D"exam" class=3D"plain-h2">Exam map</h2>
+<div class=3D"table-wrap"><table>
+  <tr><th>Objective</th><th>What it covers</th><th>Steps</th></tr>
+  <tr><td>3.1</td><td>CLAUDE.md levels, <code>@import</code>, folder CLAUDE=
+.md, <code>/memory</code></td><td>2, 3, 5</td></tr>
+  <tr><td>3.2</td><td>Commands and skills: <code>argument-hint</code>, <cod=
+e>context: fork</code>, <code>allowed-tools</code></td><td>4, 8</td></tr>
+  <tr><td>3.3</td><td>Rules with <code>paths:</code> patterns</td><td>6</td=
+></tr>
+  <tr><td>3.4</td><td>Plan mode, sending work to subagents</td><td>14, 15</=
+td></tr>
+  <tr><td>3.5</td><td>Interview first, input/output examples, fixes in one =
+message</td><td>3, 5, 7</td></tr>
+  <tr><td>3.6</td><td>Fresh-session review, <code>-p</code>, JSON schema, r=
+e-review</td><td>7, 13</td></tr>
+  <tr><td>1.7</td><td>Resume by name, fork, fresh start with a summary</td>=
+<td>12</td></tr>
+  <tr><td>2.4</td><td><code>.mcp.json</code>, <code>${VAR}</code> credentia=
+ls, use what exists first</td><td>1, 9</td></tr>
+  <tr><td>2.5</td><td>Glob and Grep</td><td>7</td></tr>
+  <tr><td>1.5</td><td>Hooks: the exam names PostToolUse; PreToolUse is what=
+ blocks</td><td>10, 14</td></tr>
+  <tr><td>5.4</td><td>Big context: scratchpad, subagents, <code>/compact</c=
+ode></td><td>15</td></tr>
+</table></div>
+<p>Not practised here: MCP resources (catalogs of data), Edit's fallback wh=
+en its anchor text isn't unique (Read, then Write), and tracing code throug=
+h a wrapper module.</p>
+
+
+<h2 id=3D"words" class=3D"plain-h2">Words you'll see</h2>
+<ul class=3D"plainlist">
+  <li><strong>Session:</strong> one conversation with Claude Code. <code>/e=
+xit</code> ends it; running <code>claude</code> starts a new one.</li>
+  <li><strong>Commit:</strong> a saved snapshot of your files in git. You c=
+an always go back to it.</li>
+  <li><strong>Plugin:</strong> a package of skills, commands, hooks and con=
+nections that you install in one go.</li>
+  <li><strong>Skill:</strong> saved instructions Claude follows when you ca=
+ll it with <code>/name</code>, or when the task fits.</li>
+  <li><strong>MCP server:</strong> a connection that gives Claude tools fro=
+m another service, like Twilio.</li>
+  <li><strong>Hook:</strong> a small script Claude Code runs at a set momen=
+t, like just before a tool runs. It can block the action.</li>
+  <li><strong>Practice server:</strong> the Twilio emulator (<code>npx emul=
+ate@0.12.3 start --service twilio</code>), a pretend Twilio on your own lap=
+top at <code>127.0.0.1:4000</code>.</li>
+  <li><strong>Segment:</strong> one billed piece of a text message. Up to 1=
+60 plain characters fit in one; longer texts are split and charged per segm=
+ent.</li>
+  <li><strong>Plain characters (GSM-7):</strong> the basic letters, digits =
+and symbols every phone handles. An emoji, a curly quote or Urdu script swi=
+tches the whole message to Unicode, where only 70 characters fit in a segme=
+nt.</li>
+  <li><strong>Sender tag:</strong> the brand name at the start of a message=
+, like <code>Chirpnet:</code>, so people know who is texting them.</li>
+  <li><strong>Opt-out line:</strong> "Reply STOP to opt out". It lets peopl=
+e stop your messages, and many countries require it.</li>
+  <li><strong>Test number:</strong> <code>+15005550006</code>, a number Twi=
+lio keeps for testing. In this studio it plays the part of <code>delivered@=
+resend.dev</code>.</li>
+  <li><strong>Fresh session:</strong> a new conversation that doesn't remem=
+ber the old one, which makes it a fair checker.</li>
+</ul>
+
+
+<footer><p>SMS Studio Lab =C2=B7 adapted from the FDE-102 Email Studio Lab.=
+ Chirpnet Mobile, the Night Owl Bundle and Chai Junction are made up. Pract=
+ice server tested with emulate 0.12.3.</p></footer>
+</main>
+</div>
+</div>
+<script>
+(function () {
+  var TOTAL =3D 15, KEY =3D "sms-studio-lab-done";
+  var state =3D {};
+  try { state =3D JSON.parse(localStorage.getItem(KEY) || "{}") || {}; } ca=
+tch (e) { state =3D {}; }
+  function save() { try { localStorage.setItem(KEY, JSON.stringify(state));=
+ } catch (e) {} }
+  function render() {
+    var n =3D 0;
+    for (var i =3D 1; i <=3D TOTAL; i++) {
+      var box =3D document.getElementById("done-" + i);
+      var sec =3D document.getElementById("step-" + i);
+      var on =3D !!state[i];
+      if (box) box.checked =3D on;
+      if (sec) sec.classList.toggle("done", on);
+      if (on) n++;
+    }
+    document.getElementById("progress-text").textContent =3D n + " of " + T=
+OTAL + " done";
+    document.querySelectorAll("[data-nav]").forEach(function (a) { a.classL=
+ist.toggle("is-done", !!state[a.getAttribute("data-nav")]); });
+    document.getElementById("meter").style.width =3D (n / TOTAL * 100) + "%=
+";
+  }
+  for (var i =3D 1; i <=3D TOTAL; i++) {
+    (function (k) {
+      var box =3D document.getElementById("done-" + k);
+      if (box) box.addEventListener("change", function () { state[k] =3D bo=
+x.checked; save(); render(); });
+    })(i);
+  }
+  render();
+
+  document.querySelectorAll(".code").forEach(function (wrap) {
+    var pre =3D wrap.querySelector("pre");
+    var btn =3D document.createElement("button");
+    btn.type =3D "button"; btn.className =3D "copy"; btn.textContent =3D "C=
+opy";
+    btn.setAttribute("aria-label", "Copy this prompt");
+    btn.addEventListener("click", function () {
+      var text =3D pre.innerText;
+      function done(ok) { btn.textContent =3D ok ? "Copied" : "Select and c=
+opy"; setTimeout(function () { btn.textContent =3D "Copy"; }, 1600); }
+      function fallback() {
+        var r =3D document.createRange(); r.selectNodeContents(pre);
+        var s =3D window.getSelection(); s.removeAllRanges(); s.addRange(r);
+        var ok =3D false; try { ok =3D document.execCommand("copy"); } catc=
+h (e) {}
+        done(ok);
+      }
+      try {
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(text).then(function () { done(true)=
+; }, fallback);
+        } else { fallback(); }
+      } catch (e) { fallback(); }
+    });
+    wrap.querySelector(".code-head").appendChild(btn);
+  });
+
+
+  try {
+    var links =3D {}; document.querySelectorAll("[data-nav]").forEach(funct=
+ion (a) { links[a.getAttribute("data-nav")] =3D a; });
+    if ("IntersectionObserver" in window) {
+      var io =3D new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (e.isIntersecting) {
+            var k =3D e.target.getAttribute("data-step");
+            Object.keys(links).forEach(function (x) { links[x].classList.to=
+ggle("is-current", x =3D=3D=3D k); });
+          }
+        });
+      }, { rootMargin: "-20% 0px -70% 0px" });
+      document.querySelectorAll("section.step").forEach(function (s) { io.o=
+bserve(s); });
+    }
+  } catch (e) {}
+
+  var dlBtn =3D document.getElementById("dl-btn");
+  function pageHtml() {
+    var clone =3D document.documentElement.cloneNode(true);
+    clone.querySelectorAll(".copy").forEach(function (b) { b.remove(); });
+    return "<!DOCTYPE html>\n" + clone.outerHTML;
+  }
+  if (window.claude && typeof window.claude.use =3D=3D=3D "function") {
+    window.claude.use("downloads").then(function (downloads) {
+      if (!downloads) return;
+      dlBtn.hidden =3D false;
+      dlBtn.addEventListener("click", function () {
+        downloads.save({ filename: "SMS-Studio-Lab-FDE-102.html", data: pag=
+eHtml() }).then(function () {
+          dlBtn.textContent =3D "Saved";
+          setTimeout(function () { dlBtn.textContent =3D "Download .html"; =
+}, 2000);
+        }, function (err) {
+          if (err && (err.code =3D=3D=3D "unavailable" || err.code =3D=3D=
+=3D "not_granted" || err.code =3D=3D=3D "capability_disabled" || err.code =
+=3D=3D=3D "capability_removed")) { dlBtn.hidden =3D true; }
+        });
+      });
+    }, function () {});
+  }
+})();
+</script>
+</body>
+</html>
+
+
+------=_NextPart_SMSStudioLab_FDE102--
